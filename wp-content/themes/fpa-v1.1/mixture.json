@@ -1,0 +1,20 @@
+{
+  "debug": false,
+  "domain": null,
+  "lintScripts": false,
+  "modelSource": null,
+  "preprocessorLocations": "lib",
+  "preprocessorScriptOutput": "lib/js",
+  "preprocessorStyleOutput": "lib/css",
+  "projectDescription": "Freestyle Players Association. Freestyle Frisbee.",
+  "projectName": "fpa",
+  "publishedId": null,
+  "serverHostname": null,
+  "serverPort": null,
+  "simpleModePartnerServer": "fpa.dev",
+  "templateDefaultLayout": "layout",
+  "templateDefaultPage": "index",
+  "templateDirectory": "templates",
+  "type": "simple",
+  "useCompass": true
+}

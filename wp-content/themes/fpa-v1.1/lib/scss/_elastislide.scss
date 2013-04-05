@@ -1,0 +1,166 @@
+/* Elastislide Style */
+
+.elastislide-list {
+	list-style-type: none;
+	display: none;
+}
+
+.no-js .elastislide-list {
+	display: block;
+}
+
+.elastislide-carousel {
+	z-index: 100;
+}
+
+.elastislide-carousel ul li {
+	min-width: 20px; /* minimum width of the image (min width + border) */
+}
+
+.elastislide-wrapper {
+	position: relative;
+	background-color: transparent;
+	margin: 0 auto;
+	min-height: 60px;
+	//box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.elastislide-wrapper.elastislide-loading {
+	background-image: url(../images/loading.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.elastislide-horizontal {
+	padding: 0 8%;
+}
+
+.elastislide-vertical {
+	padding: 40px 10px;
+}
+
+.elastislide-carousel {
+	overflow: hidden;
+	position: relative;
+}
+
+.elastislide-carousel ul {
+	position: relative;
+	display: block;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	-ms-transform: translateX(0px);
+	-o-transform: translateX(0px);
+	transform: translateX(0px);
+}
+
+.elastislide-horizontal ul {
+	white-space: nowrap;
+}
+
+.elastislide-carousel ul li {
+	margin: 0 2% 0 0;
+	-webkit-backface-visibility: hidden;
+	background-color: black;
+	border: 0 !important;
+}
+
+.elastislide-horizontal ul li {
+	height: 100%;
+	display: inline-block;
+}
+
+.elastislide-vertical ul li {
+	display: block;
+}
+
+.elastislide-carousel ul li a {
+	display: inline-block;
+	width: 100%;
+}
+
+.elastislide-carousel ul li a img {
+	display: block;
+	max-width: 100%;
+}
+
+/* Navigation Arrows */
+
+.elastislide-wrapper {
+	nav {
+		position: absolute;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		margin-left: -8%;
+		padding: 20px 0;
+		span {
+			display: block !important;
+			position: absolute;
+			z-index: 2;
+			top: 0;
+			width: 6%;
+			height: 100%;
+			margin: 0;
+			border-radius: 10px;
+			@include background(linear-gradient(bottom, rgba(white, 0.3), rgba(black, 0.3)));
+			background-color: #333;
+			text-indent: -9000px;
+			cursor: pointer;
+			&:before {
+				content: "";
+				display: block;
+				position: absolute;
+				top: 50%;
+				z-index: 4;
+				width: 70%;
+				height: 20px;
+				margin: -10px 15% 0 15%;
+				background-repeat: no-repeat;
+				background-size: contain;
+				background-position: center center;
+			}
+			&:after {
+				content: "";
+				display: block;
+				position: absolute;
+				z-index: 3;
+				top: 1px;
+				bottom: 1px;
+				left: 1px;
+				right: 1px;
+				border-radius: 10px;
+				@include background(linear-gradient(top, rgba(white, 0.1), rgba(black, 0.3)), linear-gradient(left, rgba(white, 0.2) 0%, rgba(white, 0) 5%, rgba(black, 0) 95%, rgba(black, 0.5) 100%));
+				background-color: #333;
+				cursor: pointer;
+			}
+			&:hover {
+				&:after {
+					background-color: $red;
+				}
+			}
+			&:active {
+				&:after {
+					@include background(linear-gradient(bottom, rgba(white, 0.1), rgba(black, 0.3)), linear-gradient(right, rgba(white, 0.2) 0%, rgba(white, 0) 5%, rgba(black, 0) 95%, rgba(black, 0.5) 100%));
+					background-color: $red;
+				}
+			}
+			&.elastislide-prev {
+				left: 0;
+				&:before {
+					background-image: url($images + "left-arrow.png");
+				}
+			}
+			&.elastislide-next {
+				right: 0;
+				&:before {
+					background-image: url($images + "right-arrow.png");
+				}
+			}
+		}
+	}
+}

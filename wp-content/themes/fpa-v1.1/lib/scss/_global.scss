@@ -1,0 +1,691 @@
+/*
+Bootstrap @media query conversions
+
+75em 		= 1200px
+61.188em 	= 979px
+48em 		= 768px
+47.938em 	= 767px
+30em		= 480px
+
+*/
+
+//BOX MODEL -> BORDER-BOX
+//Includes padding and margin into the elements width.
+//////////////////////////////////////////////////////////////////////////////////////////
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+//CLEARFIX
+//Fixes height of element containing only floated children elements.
+//////////////////////////////////////////////////////////////////////////////////////////
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+ 
+.clearfix:after {
+    clear: both;
+}
+ 
+/* IE6/7 support */
+.clearfix {
+    *zoom: 1;
+}
+
+//VISUALLY HIDDEN CLASS
+//Hides content from user, but not from screen readers.
+//////////////////////////////////////////////////////////////////////////////////////////
+.visuallyhidden {
+    position: absolute;
+    width: 1px; /* Setting this to 0 make it invisible for VoiceOver */
+    height: 1px; /* Setting this to 0 make it invisible for VoiceOver */
+    padding: 0;
+    margin: -1px;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;    
+}
+
+//IMAGE REPLACEMENT
+//Hides text to be replaced by an image (ex. logo) from user, but not from screen readers.
+//////////////////////////////////////////////////////////////////////////////////////////
+.ir {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+//FLEX BOX-MODEL
+//////////////////////////////////////////////////////////////////////////////////////////
+.flex-container {
+    display: -ms-flex;
+    display: -o-flex;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-direction: row;
+    -ms-flex-wrap: wrap;
+    -o-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+	.flex-item {
+		-ms-flex: 1 auto;
+		-o-flex: 1 auto;
+		-moz-flex: 1 auto;
+		-webkit-flex: 1 auto;
+		flex: 1 auto;
+	}
+}
+
+//GLOBAL CLASSES
+//////////////////////////////////////////////////////////////////////////////////////////
+.no-mar-bottom {
+	margin-bottom: 0 !important;
+}
+.no-mar-top {
+	margin-top: 0 !important;
+}
+.no-mar-right {
+	margin-right: 0 !important;
+}
+.no-mar-left {
+	margin-left: 0 !important;
+}
+.no-mar {
+	margin: 0 !important;
+}
+.no-pad-bottom {
+	padding-bottom: 0 !important;
+}
+.no-pad-top {
+	padding-top: 0 !important;
+}
+.no-pad-right {
+	padding-right: 0 !important;
+}
+.no-pad-left {
+	padding-left: 0 !important;
+}
+.no-pad {
+	padding: 0 !important;
+}
+.add-pad {
+	padding: $pad;
+}
+.add-pad-top {
+	padding-top: $pad;
+}
+.add-pad-bottom {
+	padding-bottom: $pad;
+}
+.add-pad-right {
+	padding-right: $pad;
+}
+.add-pad-left {
+	padding-left: $pad;
+}
+.add-mar {
+	margin: $pad;
+}
+.add-mar-top {
+	margin-top: $pad;
+}
+.add-mar-bottom {
+	margin-bottom: $pad;
+}
+.add-mar-right {
+	margin-right: $pad;
+}
+.add-mar-left {
+	margin-left: $pad;
+}
+.no-radius-top-right {
+	@include border-top-right-radius(0 !important);
+}
+.no-radius-top-left {
+	@include border-top-left-radius(0 !important);
+}
+.spanHalf {
+	float: left;
+	width: 50%;
+	margin: 0;
+}
+.pointer {
+	cursor: pointer;
+}
+.relative {
+	position: relative;
+}
+.border-bottom {
+	border-bottom: $border;
+}
+
+//VISUAL CLASSES
+//////////////////////////////////////////////////////////////////////////////////////////
+.plain {
+	background-color: white;
+}
+.blue {
+	background-color: $blue !important;
+	color: white;
+	p {
+		font-weight: 100;
+	}
+}
+.red {
+	background-color: $red;
+}
+.gray {
+	background-color: $gray;
+}
+.checker {
+	background-image: url($images + "checker-bg.png");
+}
+.inset {
+	background-image: url($images + "inset-shadow-top.png"), url($images + "inset-shadow-bottom.png");
+	background-repeat: repeat-x, repeat-x;
+	background-position: center top, center bottom;
+}
+.checker.inset {
+	background-image: url($images + "checker-bg.png"), url($images + "inset-shadow-top.png"), url($images + "inset-shadow-bottom.png");
+	background-repeat: repeat, repeat-x, repeat-x;
+	background-position: center center, center top, center bottom;
+}
+section {
+	overflow: hidden;
+	padding: $pad;
+	@extend .box-shadow;
+	@include border-radius(10px);
+}
+.parent-row {
+	margin-top: $pad;
+}
+.inset-border-left {
+	background-image: url($images + "inset-border.png");
+	background-repeat: repeat-y;
+	background-position: left top;
+	padding-left: 2.564102564102564%;
+}
+.split-bg {
+	background-image: url($images + "split-inset-bg.png");
+	background-repeat: repeat-y;
+	background-color: $gray;
+	background-position: -82% center;
+	@media (min-width: 75em) {
+		background-position: -36% center;
+	}
+	@media (min-width: 48em) and (max-width: 61.188em) {
+		background-position: -261% center;
+	}
+	@media (max-width: 47.938em) {
+		background: none;
+		background-color: $gray;
+	}
+}
+.loading {
+	display: block;
+	position: relative;
+	i {
+		font-size: 40px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		color: #999;
+		margin: -20px 0 0 -20px;
+		display: inline-block;
+	}
+}
+
+//BODY
+//////////////////////////////////////////////////////////////////////////////////////////
+body {
+	background-image: url($images + "main-bg.jpg");
+	background-repeat: repeat-x;
+	background-position: center top;
+	background-attachment: fixed;
+}
+
+//HEADER
+//////////////////////////////////////////////////////////////////////////////////////////
+#branding {
+	position: relative;
+	z-index: 2;
+	#logo {
+		width: 151px;
+		height: 112px;
+		margin: 0;
+		background-image: url($images + "logo.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}	
+}
+#header-accent {
+	position: relative; 
+	z-index: 1;
+	height: 55px;
+	margin-top: -55px;
+	background-color: $blue;
+	@include border-top-left-radius(10px);
+	@include border-top-right-radius(10px);
+	@extend .box-shadow;
+}
+.login-link {
+	position: absolute;
+	top: 73px;
+	right: $pad;
+	z-index: 200;
+	color: rgba(white, 0.6);
+	font-weight: 100;
+	&:hover {
+		color: rgba(white, 1);
+	}
+}
+
+
+//NAVIGATION
+//////////////////////////////////////////////////////////////////////////////////////////
+#navigation {
+	position: relative;
+	z-index: 3;
+	width: 103%;
+	margin-left: -1.5%;
+	@include box-shadow(0 0 15px rgba(black, 0.7));
+	.navbar {
+		position: relative;
+		height: 60px;
+		margin: 0;
+		ul {
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			li {
+				width: 12.5%;
+				background-image: url($images + "navbar-bg.png");
+				background-repeat: repeat-x;
+				border-right: 1px solid rgba(white, 0.8);
+				border-left: 1px solid rgba(black, 0.1);
+				&:first-child {
+					border-left: none;
+				}
+				&.active {
+					a {
+						background: none;
+						@include box-shadow(none);
+						color: $red;
+						font-weight: bold;
+					}
+				}
+				&.join {
+					border: none;
+					background-image: url($images + "join-bg.png");
+					a {
+						color: white;
+						text-shadow: 0 -1px 0 darken($red, 20%);
+					}
+					&.active {
+						a {
+							color: white;
+						}
+					}
+				}
+				a {
+					font-size: 12px;
+					font-size: 1.2rem;
+					text-transform: uppercase;
+					padding: $pad 0;
+					text-align: center;
+				}
+			}	
+		}
+	}
+}
+
+.dropdown-menu {
+	width: 100%;
+	min-width: 100% !important;
+	height: auto !important;
+	padding: 0;
+	background-color: $gray !important;
+	@include border-radius(0 !important);
+	li {
+		width: 100% !important;
+		background: darken($gray, 10%) !important;
+		border-bottom: 1px solid rgba(white, 0.1);
+		border-right: none !important;
+		border-left: none !important;
+		&:last-child {
+			border: none;
+		}
+		a {
+			text-transform: capitalize !important;
+			display: block;
+			padding: 10px 0 !important;
+			color: lighten($gray, 20%);
+			&:hover {
+				background: $blue;
+				color: white;
+			}
+		}
+	}
+	&:after, &:before {
+		display: none !important;
+	}
+}
+
+.account-menu {
+	width: 12.5%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	.my-account {
+		width: 100%;
+		border: none;
+		background-image: url($images + "join-bg.png");
+		a {
+			display: block;
+			color: white;
+			text-shadow: 0 -1px 0 darken($red, 20%);
+			font-size: 12px;
+			font-size: 1.2rem;
+			text-transform: uppercase;
+			padding: $pad 0;
+			text-align: center;
+		}
+		&.active {
+			a {
+				text-decoration: none;
+				color: white;
+			}
+		}
+	}
+}
+
+//FOOTER
+//////////////////////////////////////////////////////////////////////////////////////////
+footer {
+	margin-bottom: 40px;
+}
+#menu-footer-navigation {
+	width: 100%;
+	li {
+		float: right;
+		margin-left: 4%;
+		a {
+			font-weight: 100;
+			color: rgba(white, 0.7);
+			text-transform: uppercase;
+			&:hover {
+				color: rgba(white, 1);
+			}
+		}
+	}
+}
+
+//CONTENT
+//////////////////////////////////////////////////////////////////////////////////////////
+#content {
+	position: relative;
+	z-index: 2;
+	padding-bottom: 40px;
+}
+#navbar-folds {
+	position: relative;
+	width: 103%;
+	margin-left: -1.5%;
+	.navbar-fold {
+		position: absolute;
+		z-index: -1;
+		width: 1.5%;
+		height: 14px;
+		background-repeat: no-repeat;
+		&.left {
+			left: 0;
+			background-image: url($images + "navbar-left-fold.png");
+		}
+		&.right {
+			right: 0;
+			background-image: url($images + "navbar-right-fold.png");
+		}
+	}
+}
+
+//PAGE HEADER
+//////////////////////////////////////////////////////////////////////////////////////////
+#page-header {
+	background-color: rgba($gray, 0.8);
+	@include border-bottom-left-radius(10px);
+	@include border-bottom-right-radius(10px);
+	@include box-shadow(0 0 10px black);
+	h1 {
+		padding: $pad;
+		margin: 0;
+		color: rgba(white, 0.6);
+		font-weight: 500;
+	}
+	h2 {
+		padding: $pad;
+		margin: 0;
+		color: white;
+		font-weight: 100;
+	}
+}
+
+//POST LISTS
+//////////////////////////////////////////////////////////////////////////////////////////
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.posts {
+	.post {
+		padding-bottom: $pad;
+		margin-bottom: $pad;
+		border-bottom: 1px solid #eee;
+		&:last-child {
+			padding-bottom: 0;
+			margin-bottom: 0;
+			border-bottom: none;
+		}
+	}
+}
+.downloads {
+	.download {
+		text-align: center;
+		@media (max-width: 47.938em) {
+			width: 23.076923076923077%;
+			margin-left: 2.127659574468085%;
+			float: left;
+			display: block;
+		}
+		@media (min-width: 30.063em) {
+			&:nth-child(4n+1) {
+				margin-left: 0;
+			}
+		}
+		@media (max-width: 30em) {
+			width: 48.717948717948715%;
+			&:nth-child(2n+1) {
+				margin-left: 0;
+			}
+		}
+		a {
+			display: block;
+			color: white;
+			&:hover {
+				h3 {
+					color: rgba(white, 0.5);
+				}
+			}
+			.file-icon-wrap {
+				width: 100%;
+				display: inline-block;
+				position: relative;
+				.ascpect-ratio {
+					padding-top: 128%;
+				}
+				.file-icon {
+					position: absolute;
+					top: 0;
+					bottom: 0;
+					left: 0;
+					right: 0;
+					margin: 0;
+					background-image: url($images + "downloads.png");
+					background-repeat: no-repeat;
+					background-position: left top;
+					background-size: 200%;
+					&.xls {
+						background-position: right top;
+					}
+				}
+				h5 {
+					position: absolute;
+					top: 10.5%;
+					left: 13%;
+					text-transform: uppercase;
+					font-weight: bold;
+					color: #666;
+					@media (min-width: 75em) {
+						left: 14%;
+					}
+				}
+			}
+			h3 {
+				@include font-size(1.4);
+				color: white;
+			}
+			&:hover {
+				.file-icon {
+					background-position: left bottom;
+					&.xls {
+						background-position: right bottom;
+					}
+				}
+			}
+		}
+	}
+}
+
+.gallery {
+	.row-fluid {
+		margin-top: $pad;
+		&:first-child {
+			margin-top: 0;
+		}
+	}
+}
+
+.overlay-item {
+	position: relative;
+	overflow: hidden;
+	@include border-radius(10px);
+	//@include box-shadow(0 0 4px rgba(black, 0.7));
+	border: 1px solid #ccc;
+	cursor: pointer;
+	img {
+		@include border-radius(10px);
+	}
+	.overlay {
+		position: absolute;
+		bottom: -100%;
+		width: 100%;
+		padding: $pad/2;
+		background-color: rgba($red, 0.7);
+		@include transition-property(all);
+		@include transition-duration(0.3s);
+		h3 {
+			@include font-size(1.4);
+			margin: 0;
+			color: white;
+			a {
+				color: white;
+				font-weight: bold;
+			}
+		}
+		a {
+			color: rgba(white, 0.5);
+			font-weight: 100;
+			&:hover {
+				color: rgba(white, 1);
+			}
+		}
+		.playing {
+			display: none;
+		}
+	}
+	&:hover {
+		overflow: hidden;
+		.overlay {
+			bottom: 0;
+		}
+	}
+	&.active {
+		.overlay {
+			height: 100%;
+			bottom: auto;
+			top: 0;
+			@include border-radius(10px);
+			h3 {
+				display: none;
+			}
+			.playing {
+				font-size: 40px;
+				position: absolute;
+				color: white;
+				display: block;
+				top: 50%;
+				left: 50%;
+				margin: -20px 0 0 -25px;
+			}
+		}
+	}
+	&.feature-player {
+		@include box-shadow(0 0 10px rgba(black, 0.6));
+		@include border-radius(0);
+		border: none;
+		margin-bottom: $pad;
+		img {
+			@include border-radius(0);
+		}
+		.overlay {
+			bottom: auto;
+			top: 100%;
+			height: 100%;
+			padding: $pad;
+			h2 {
+				color: white;
+				@include font-size(2);
+				font-weight: 100;
+			}
+		}
+		&:hover {
+			.overlay {
+				top: 0;
+			}
+		}
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.instructionals {
+	li {
+		h3 {
+			@include font-size(1.4);
+			a {
+				color: white;
+				&:hover {
+					opacity: 0.7;
+				}
+			}
+		}
+	}
+}

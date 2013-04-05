@@ -1,0 +1,39 @@
+//POSITIONING
+//Usage -> @include placement(absolute, 0, 0, 0, 0);
+//////////////////////////////////////////////////////////////////////////////////////////
+@mixin placement($type, $top, $right, $bottom, $left) {
+	position: $type;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+}
+
+//FONT SIZE
+//Given the provided font-size, in rems, this will calculate 
+//Usage -> @include placement(absolute, 0, 0, 0, 0);
+//////////////////////////////////////////////////////////////////////////////////////////
+@mixin font-size($fontSize: 1.6, $marBottom: 1, $lineHtMultiplier: 1.4){
+	//position: relative;
+	
+	$sizePx: $fontSize * 10;
+	$sizeRem: $fontSize;
+	font-size: $sizePx + px;
+  	font-size: $sizeRem + rem;
+  	
+	$linePx: $sizePx * $lineHtMultiplier;
+	$lineRem: $sizeRem * $lineHtMultiplier;
+	line-height: $linePx + px;
+  	line-height: $lineRem + rem;
+  	
+	$marTopPx: ($linePx - $sizePx) / 2;
+	$marTopRem: ($lineRem - $sizeRem) / 2;
+	//bottom: $marTopPx + px ;
+  	//bottom: $marTopRem + rem;
+  	margin-top: 0;
+  	
+  	$marBottomPx: $marBottom * 10;
+  	$marBottomRem: $marBottom;
+  	margin-bottom: $marBottomPx + px ;
+  	margin-bottom: $marBottomRem + rem;
+}

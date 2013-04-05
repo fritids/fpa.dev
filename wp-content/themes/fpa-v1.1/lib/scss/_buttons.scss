@@ -1,0 +1,226 @@
+//SOCIAL ICONS
+//////////////////////////////////////////////////////////////////////////////////////////
+.social {
+	//background-image: url($images + "frisbee.png");
+	//background-position: left top;
+	//background-repeat: no-repeat;
+	background-color: #efefef;
+	height: 35px;
+	width: 35px;
+	padding: 2%;
+	margin-left: 5px;
+	float: left;
+	overflow: hidden;
+	border-radius: 50%;
+	box-shadow: 1px 3px 6px rgba(0,0,0,0.7);
+	text-align: center;
+	i {
+		border-radius: 50%;
+		border: 4px double gray;
+		padding: 13% 0;
+		font-size: 13px;
+		font-size: 1.3rem;
+		color: $gray;
+		height: 100%;
+		width: 100%;
+		@include transition-duration(0.8s);
+		@include transition-property(all);
+		&.icon-play {
+			padding: 15% 23%;
+		}
+		&.icon-vimeo {
+			padding: 18% 12%;
+		}
+		&.icon-facebook {
+			padding: 6.5% 23%;
+			font-size: 17px;
+			font-size: 1.7rem;
+		}
+		&.icon-twitter {
+			padding: 15.5% 13%;
+			font-size: 13px;
+			font-size: 1.3rem;
+		}
+	}
+	&:hover {
+		i {
+    		@include rotate(720deg);
+    		&.icon-play {
+				color: rgba(199,49,43,1);
+				border-color: rgba(199,49,43,0.7);
+			}
+			&.icon-vimeo {
+				color: rgba(64,187,255,1);
+				border-color: rgba(64,187,255,0.7);
+			}
+			&.icon-facebook {
+				color: rgba(59,89,152,1);
+				border-color: rgba(59,89,152,0.7);
+			}
+			&.icon-twitter {
+				color: rgba(0,186,247,1);
+				border-color: rgba(0,186,247,0.7);
+			}
+    	}
+    }
+}
+
+//STANDARD BUTTONS
+//////////////////////////////////////////////////////////////////////////////////////////
+@mixin btn($color, $is_dark) {
+	@if $is_dark == no {
+		$text_color: darken($color, 20%);
+		color: $text_color;
+	}
+	@else {
+		$text_color: lighten($color, 70%);
+		color: $text_color;
+	}
+	@include background(linear-gradient(top, rgba(white,0) -110%,rgba(black,0.4)));
+	@include border-radius(4px);
+	@include box-shadow(0 0 3px black);
+	background-repeat: no-repeat;
+	background-color: $color;
+	border-width: 1px;
+	border-style: solid;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+	text-shadow: 0 -1px 1 darken($color, 20%) !important;
+	text-transform: uppercase;
+	font-weight: 100;
+	padding: 18px 5px;
+	&:hover, &:active {
+		@if $is_dark == no {
+			$text_color: darken($color, 50%);
+			color: $text_color;
+		}
+		@else {
+			$text_color: white;
+			color: $text_color;
+		}
+		background-position: center center;
+		background-color: darken($color, 3%);
+	}
+}
+
+.btn-red {
+	@include btn($red, yes);
+}
+.btn-blue {
+	@include btn($blue, yes);
+}
+.btn-submit {
+	padding: 10px 20px !important;
+	width: auto !important;
+	float: right;
+}
+.button {
+	padding: 10px 15px;
+	@include btn($gray, yes);
+}
+
+//LARGE BUTTONS
+//////////////////////////////////////////////////////////////////////////////////////////
+.btn-area {
+	.row-fluid {
+		margin-bottom: 20px;
+	}
+}
+.primary-btn, .secondary-btn {
+	padding: 20px;
+	text-align: center;
+	@include background(image-url($images + "checker-bg.png"), linear-gradient(rgba(77,77,77,1), rgba(51,51,51,1)));
+	@include border-radius(10px);
+	@extend .box-shadow;
+	.btn-icon {
+		width: 97px;
+		height: 75px;
+		margin: 0 auto 15px auto;
+		background-image: url($images + "fpa-glyphs.png");
+		opacity: .7;
+		$icon: -97px;
+		&.fpa {
+			background-position: left top;
+		}
+		&.grant {
+			background-position: $icon top;
+		}
+		&.player {
+			background-position:  ($icon * 2) top;
+		}
+		&.camera {
+			background-position:  ($icon * 3) top;
+		}
+		&.cart {
+			background-position:  ($icon * 4) top;
+		}
+		&.globe {
+			background-position:  ($icon * 5) top;
+		}
+		&.book {
+			background-position:  ($icon * 6) top;
+		}
+		&.scroll {
+			background-position:  ($icon * 7) top;
+		}
+	}
+	h4 {
+		color: white;
+		opacity: .7;
+		margin: 0;
+	}
+	&.small {
+		float: left;
+		.btn-icon {
+			width: 65px;
+			height: 52px;
+			margin: 0;
+			background-image: url($images + "fpa-glyphs-small.png");
+			$icon: -65px;
+			&.fpa {
+				background-position: left top;
+			}
+			&.grant {
+				background-position: $icon top;
+			}
+			&.player {
+				background-position:  ($icon * 2) top;
+			}
+			&.camera {
+				background-position:  ($icon * 3) top;
+			}
+			&.cart {
+				background-position:  ($icon * 4) top;
+			}
+			&.globe {
+				background-position:  ($icon * 5) top;
+			}
+			&.book {
+				background-position:  ($icon * 6) top;
+			}
+			&.scroll {
+				background-position:  ($icon * 7) top;
+			}
+		}
+		h4 {
+			padding: 13px 0;
+		}
+	}
+	&:hover {
+		@include background(image-url($images + "checker-bg.png"), linear-gradient($red, darken($red, 10%)));
+	}
+	&:active {
+		@include background(image-url($images + "checker-bg.png"), linear-gradient(darken($red, 10%) 30%, $red));
+		@include box-shadow(inset 0 0 8px rgba(0,0,0,1));
+		.btn-icon, h4 {
+			opacity: .5;
+		}
+	}
+}
+.secondary-btn {
+	padding: 15px 20px;
+	h4 {
+		font-size: 14px;
+		font-size: 1.4rem;
+	}
+}
