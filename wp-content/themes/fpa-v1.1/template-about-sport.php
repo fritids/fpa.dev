@@ -1,4 +1,4 @@
-<?php /* Template Name: About -> Freestyle */ ?>
+<?php /* Template Name: About -> Sport */ ?>
 
 <?php get_header(); the_post(); ?>
 
@@ -43,16 +43,16 @@
 	<div class="span12 btn-area">
 		<div class="row-fluid">
 			<a href="#" class="span4 primary-btn">
-				<div class="btn-icon grant"></div>
-				<h4>Become a Sponsor</h4>
+				<div class="btn-icon player"></div>
+				<h4>Freestyle Moves</h4>
 			</a>
 			<a href="#" class="span4 primary-btn">
 				<div class="btn-icon fpa"></div>
 				<h4>Join the FPA</h4>
 			</a>
 			<a href="#" class="span4 primary-btn">
-				<div class="btn-icon player"></div>
-				<h4>Freestyle Moves</h4>
+				<div class="btn-icon grant"></div>
+				<h4>Become a Sponsor</h4>
 			</a>
 		</div>
 	</div>

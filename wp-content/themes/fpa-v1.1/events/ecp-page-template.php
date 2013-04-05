@@ -24,12 +24,6 @@ if ( !defined('ABSPATH') ) { die('-1'); } ?>
 			<?php include(tribe_get_current_template()); ?>
 			<?php tribe_events_after_html(); ?>
 		</section>
-		<div class="row-fluid parent-row btn-area">
-			<a href="#" class="span12 primary-btn">
-				<div class="btn-icon grant"></div>
-				<h4>Jam Grant</h4>
-			</a>
-		</div>
 	</div>
 	<div class="span5 no-pad">
 		<section class="row-fluid plain">
@@ -42,6 +36,12 @@ if ( !defined('ABSPATH') ) { die('-1'); } ?>
 			);
 			post_list($args); ?>
 		</section>
+		<div class="row-fluid parent-row btn-area">
+			<a href="#" class="span12 primary-btn">
+				<div class="btn-icon grant"></div>
+				<h4>Jam Grant</h4>
+			</a>
+		</div>
 		<section class="row-fluid parent-row plain">
 			<h3>Freestyle World Map</h3>
 			<p>This map includes places all over the world where frisbee freestylers meet to jam.</p>
