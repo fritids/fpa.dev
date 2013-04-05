@@ -1,8 +1,6 @@
-<?php /* Template Name: Contact */ ?>
+<?php /* Template Name: About -> Contact */ ?>
 
-<?php get_header(); ?>
-
-<?php the_post(); ?>
+<?php get_header(); the_post(); ?>
 
 <?php page_header(get_the_title()); ?>
 

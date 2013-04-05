@@ -1,4 +1,4 @@
-<?php /* Template Name: learn/moves */ ?>
+<?php /* Template Name: Learn -> Moves */ ?>
 
 <?php get_header(); the_post(); ?>
 

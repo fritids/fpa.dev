@@ -1,8 +1,6 @@
-<?php /* Template Name: home */ ?>
+<?php /* Template Name: Home */ ?>
 
-<?php get_header(); ?>
-
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+<?php get_header(); the_post(); ?>
 
 <?php $slides = new WP_Query(array("post_type" => "slide")); ?>
 <?php if($slides->have_posts()) : ?>
@@ -93,7 +91,5 @@
 		</div>
 	</div>
 </div>
-
-<?php endwhile; endif; ?>
 
 <?php get_footer(); ?>

@@ -1,4 +1,4 @@
-<?php /* Template Name: about/fpa */ ?>
+<?php /* Template Name: About -> FPA */ ?>
 
 <?php get_header(); the_post(); ?>
 

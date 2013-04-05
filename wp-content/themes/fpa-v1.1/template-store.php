@@ -1,4 +1,4 @@
-<?php /* Template Name: store */ ?>
+<?php /* Template Name: Store */ ?>
 
 <?php get_header(); ?>
 

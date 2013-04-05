@@ -1,8 +1,6 @@
-<?php /* Template Name: events/results */ ?>
+<?php /* Template Name: Events -> Results */ ?>
 
-<?php get_header(); ?>
-
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+<?php get_header(); the_post(); ?>
 
 <?php page_header(get_the_title()); ?>
 
@@ -39,7 +37,5 @@
 		</div>
 	</div>
 </div>
-
-<?php endwhile; endif; ?>
 
 <?php get_footer(); ?>

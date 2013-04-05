@@ -1,4 +1,4 @@
-<?php /* Template Name: players */ ?>
+<?php /* Template Name: Players */ ?>
 
 <?php get_header(); the_post(); ?>
 
