@@ -22,8 +22,8 @@
 		</div>
 		<div class="row-fluid">
 			<a href="#" class="span12 primary-btn">
-				<div class="btn-icon player"></div>
-				<h4>Jam Camp</h4>
+				<div class="btn-icon fpa"></div>
+				<h4>Contact FPA Board</h4>
 			</a>
 		</div>
 	</div>
