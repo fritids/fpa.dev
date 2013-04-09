@@ -13,8 +13,6 @@ if( isset($_REQUEST['gateway']) && isset($_REQUEST['extra_form']) ) {
 } else if($member->on_sub( $subscription )) {
 
 		$sub =  new M_Subscription( $subscription );
-		// Get the coupon
-		$coupon = membership_get_current_coupon();
 
 	?>
 		<div id='membership-wrapper'>
@@ -34,12 +32,6 @@ if( isset($_REQUEST['gateway']) && isset($_REQUEST['extra_form']) ) {
 							$sub =  new M_Subscription( $s->id );
 							// Build the pricing array
 							$pricing = $sub->get_pricingarray();
-
-							if(!empty($pricing) && !empty($coupon) ) {
-								if($coupon->valid_for_subscription( $s->id )) {
-									$pricing = $coupon->apply_coupon_pricing( $pricing );
-								}
-							}
 
 							?>
 								<tr>
@@ -105,29 +97,15 @@ if( isset($_REQUEST['gateway']) && isset($_REQUEST['extra_form']) ) {
 				?>
 			</table>
 
-			<?php
-					if(!defined('MEMBERSHIP_HIDE_COUPON_FORM')) {
-						if( !isset($M_options['show_coupons_form']) || $M_options['show_coupons_form'] == 'yes' ) {
-							include_once( membership_dir( 'membershipincludes/includes/coupon.form.php' ) );
-						}
-
-					}
-			?>
-
 		</div>
 
 	<?php
 } else {
 
 	$sub =  new M_Subscription( $subscription );
-	// Get the coupon
-	$coupon = membership_get_current_coupon();
+
 	// Build the pricing array
 	$pricing = $sub->get_pricingarray();
-
-	if(!empty($pricing) && !empty($coupon) ) {
-			$pricing = $coupon->apply_coupon_pricing( $pricing );
-	}
 
 	?>
 		<div id='membership-wrapper'>
@@ -195,14 +173,6 @@ if( isset($_REQUEST['gateway']) && isset($_REQUEST['extra_form']) ) {
 			<?php } ?>
 			</table>
 
-			<?php
-					if(!defined('MEMBERSHIP_HIDE_COUPON_FORM')) {
-						if( !isset($M_options['show_coupons_form']) || $M_options['show_coupons_form'] == 'yes' ) {
-							include_once( membership_dir( 'membershipincludes/includes/coupon.form.php' ) );
-						}
-
-					}
-			?>
 		</div>
 	<?php
 }

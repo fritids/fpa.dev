@@ -144,8 +144,9 @@ function set_membership_url($base) {
 	} else {
 		$M_membership_url = trailingslashit(WP_PLUGIN_URL . '/membership');
 	}
-	if (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) {
-		$M_membership_url = preg_replace('/http:/i', 'https:', $M_membership_url);
+
+	if ( is_ssl() ) {
+		$M_membership_url = preg_replace('#http://#i', 'https://', $M_membership_url);
 	}
 }
 
@@ -700,18 +701,6 @@ function M_delete_option($key) {
 	}
 
 }
-function membership_get_current_coupon() {
-
-	if(isset($_POST['coupon_code']) && !empty($_POST['coupon_code'])) {
-		// Check that it is a valid coupon code - otherwise we'll return an error.
-		$coupon = new M_Coupon( $_POST['coupon_code'] );
-
-		return $coupon;
-	} else {
-		return false;
-	}
-
-}
 
 function membership_price_in_text( $pricing ) {
 
@@ -1056,6 +1045,26 @@ function membership_price_in_text( $pricing ) {
 	}
 
 	return ucfirst(implode(', ' , $pd));
+
+}
+
+function membership_redirect_to_protected() {
+
+	global $M_options;
+
+	if(defined('MEMBERSHIP_GLOBAL_TABLES') && MEMBERSHIP_GLOBAL_TABLES === true ) {
+		if(function_exists('switch_to_blog')) {
+			switch_to_blog(MEMBERSHIP_GLOBAL_MAINSITE);
+		}
+	}
+
+	$url = get_permalink( (int) $M_options['nocontent_page'] );
+	$current_url = ( is_ssl() ? 'https://' : 'http://' ) . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+
+	if($url != $current_url) {
+		wp_safe_redirect( $url );
+		exit;
+	}
 
 }
 ?>

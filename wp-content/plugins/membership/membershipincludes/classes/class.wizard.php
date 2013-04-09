@@ -257,7 +257,7 @@ if(!class_exists('M_Wizard')) {
 					<?php _e('Create ','membership'); ?>
 					<select name='numberoflevels' id='wizardnumberoflevels'>
 					<?php
-						for($n=1; $n <= 99; $n++) {
+						for($n=1; $n <= 2; $n++) {
 							if($n == 2) {
 								?>
 									<option value='<?php echo $n; ?>' selected='selected'><?php echo $n; ?></option>
@@ -343,7 +343,7 @@ if(!class_exists('M_Wizard')) {
 					<?php _e('Create ','membership'); ?>
 					<select name='numberoflevels' id='wizardnumberoflevels'>
 					<?php
-						for($n=1; $n <= 99; $n++) {
+						for($n=1; $n <= 2; $n++) {
 							if($n == 2) {
 								?>
 									<option value='<?php echo $n; ?>' selected='selected'><?php echo $n; ?></option>

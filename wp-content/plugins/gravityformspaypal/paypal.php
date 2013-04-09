@@ -3,7 +3,7 @@
 Plugin Name: Gravity Forms PayPal Add-On
 Plugin URI: http://www.gravityforms.com
 Description: Integrates Gravity Forms with PayPal, enabling end users to purchase goods and services through Gravity Forms.
-Version: 1.6
+Version: 1.7
 Author: rocketgenius
 Author URI: http://www.rocketgenius.com
 
@@ -37,7 +37,7 @@ class GFPayPal {
     private static $path = "gravityformspaypal/paypal.php";
     private static $url = "http://www.gravityforms.com";
     private static $slug = "gravityformspaypal";
-    private static $version = "1.6";
+    private static $version = "1.7";
     private static $min_gravityforms_version = "1.6.4";
     private static $production_url = "https://www.paypal.com/cgi-bin/webscr/";
     private static $sandbox_url = "https://www.sandbox.paypal.com/cgi-bin/webscr/";
@@ -1132,14 +1132,16 @@ class GFPayPal {
 
         //getting setting id (0 when creating a new one)
         $id = !empty($_POST["paypal_setting_id"]) ? $_POST["paypal_setting_id"] : absint($_GET["id"]);
-        $config = empty($id) ? array("meta" => array(), "is_active" => true, "form_id" => absint(rgpost("gf_paypal_form"))) : GFPayPalData::get_feed($id);
+        $config = empty($id) ? array("meta" => array(), "is_active" => true) : GFPayPalData::get_feed($id);
         $is_validation_error = false;
+        
+        $config["form_id"] = rgpost("gf_paypal_submit") ? absint(rgpost("gf_paypal_form")) : $config["form_id"];
 
         $form = isset($config["form_id"]) && $config["form_id"] ? $form = RGFormsModel::get_form_meta($config["form_id"]) : array();
 
         //updating meta information
         if(rgpost("gf_paypal_submit")){
-
+        	
             $config["meta"]["email"] = trim(rgpost("gf_paypal_email"));
             $config["meta"]["mode"] = rgpost("gf_paypal_mode");
             $config["meta"]["type"] = rgpost("gf_paypal_type");
@@ -1149,7 +1151,6 @@ class GFPayPal {
             $config["meta"]["disable_note"] = rgpost("gf_paypal_disable_note");
             $config["meta"]["disable_shipping"] = rgpost('gf_paypal_disable_shipping');
             $config["meta"]["delay_post"] = rgpost('gf_paypal_delay_post');
-            $config["meta"]["update_post_action"] = rgpost('gf_paypal_update_action');
             $config["meta"]["update_post_action"] = rgpost('gf_paypal_update_action');
 
             if(isset($form["notifications"])){
@@ -1839,7 +1840,7 @@ class GFPayPal {
 
         require_once(self::get_base_path() . "/data.php");
 
-        $configs = GFPayPalData::get_feed_by_form($form["id"]);
+        $configs = GFPayPalData::get_feed_by_form($form["id"], true);
         if(!$configs)
             return false;
 
@@ -2599,17 +2600,20 @@ class GFPayPal {
                 $total += $price * $product['quantity'];
                 $product_index++;
             }
-            else
+            else{
                 $discount += abs($price) * $product['quantity'];
+            }
+
         }
 
-        if($discount > 0)
+        if($discount > 0){
             $fields .= "&discount_amount_cart={$discount}";
+        }
 
         $shipping = !empty($products["shipping"]["price"]) ? "&shipping_1={$products["shipping"]["price"]}" : "";
         $fields .= "{$shipping}&cmd=_cart&upload=1";
 
-        return $total > 0 && $total >= $discount ? $fields : false;
+        return $total > 0 && $total > $discount ? $fields : false;
     }
 
     private static function get_donation_query_string($form, $entry){
@@ -2677,7 +2681,7 @@ class GFPayPal {
             if($id == $config["meta"]["recurring_amount_field"] || $config["meta"]["recurring_amount_field"] == "all"){
                 $options = "";
                 $price = GFCommon::to_number($product["price"]);
-                if(is_array($product["options"]) && !empty($product["options"])){
+                if(isset($product["options"]) && is_array($product["options"]) && !empty($product["options"])){
                     $options = " (";
                     foreach($product["options"] as $option){
                         $options .= $option["option_name"] . ", ";
@@ -2921,7 +2925,7 @@ class GFPayPal {
 		$payment_amount = rgar($lead, "payment_amount");
 		if (empty($payment_amount))
 		{
-			$form = RGFormsModel::get_form($form_id);
+			$form = RGFormsModel::get_form_meta($form_id);
 			$payment_amount = GFCommon::get_order_total($form,$lead);
 		}
 	  	$transaction_id = rgar($lead, "transaction_id");

@@ -236,12 +236,16 @@ if(!class_exists('membershippublic')) {
 		function add_feed_key( $output, $feed ) {
 			global $user;
 
+			if(empty($user) || !method_exists($user, 'has_cap')) {
+				$user = wp_get_current_user();
+			}
+
 			if($user->ID > 0) {
 
 				$member = new M_Membership($user->ID);
 
 				if($member->is_member()) {
-					$key = get_user_meta($user->ID, '_membership_key');
+					$key = get_user_meta($user->ID, '_membership_key', true);
 
 					if(empty($key)) {
 						$key = md5($user->ID . $user->user_pass . time());
@@ -1571,8 +1575,16 @@ if(!class_exists('membershippublic')) {
 										$error->add('passmatch', __('Please ensure the passwords match.','membership'));
 									}
 
+									if(!validate_username( $_POST['user_login'] )) {
+										$error->add('usernamenotvalid', __('The username is not valid, sorry.','membership'));
+									}
+
 									if(username_exists(sanitize_user($_POST['user_login']))) {
 										$error->add('usernameexists', __('That username is already taken, sorry.','membership'));
+									}
+
+									if(!is_email($_POST['user_email'])) {
+										$error->add('emailnotvalid', __('The email address is not valid, sorry.','membership'));
 									}
 
 									if(email_exists($_POST['user_email'])) {
@@ -1606,15 +1618,22 @@ if(!class_exists('membershippublic')) {
 													'user_password' => $_POST['password'],
 													'remember' => true
 												);
-												$is_ssl = (isset($_SERVER['https']) && strtolower($_SERVER['https']) == 'on' ? true : false);
-												$user = wp_signon( $creds, $is_ssl );
 
-												if ( is_wp_error($user) && method_exists($user, 'get_error_message') ) {
-													$error->add('userlogin', $user->get_error_message());
+												if(!headers_sent()) {
+													$is_ssl = (isset($_SERVER['https']) && strtolower($_SERVER['https']) == 'on' ? true : false);
+													$user = @wp_signon( $creds, $is_ssl );
+
+													if ( is_wp_error($user) && method_exists($user, 'get_error_message') ) {
+														$error->add('userlogin', $user->get_error_message());
+													} else {
+														// Set the current user up
+														wp_set_current_user( $user_id );
+													}
 												} else {
 													// Set the current user up
 													wp_set_current_user( $user_id );
 												}
+
 											}
 
 											if( has_action('membership_susbcription_form_registration_notification') ) {
@@ -1667,8 +1686,16 @@ if(!class_exists('membershippublic')) {
 										$error->add('passmatch', __('Please ensure the passwords match.','membership'));
 									}
 
+									if(!validate_username( $_POST['signup_username'] )) {
+										$error->add('usernamenotvalid', __('The username is not valid, sorry.','membership'));
+									}
+
 									if(username_exists(sanitize_user($_POST['signup_username']))) {
 										$error->add('usernameexists', __('That username is already taken, sorry.','membership'));
+									}
+
+									if(!is_email($_POST['signup_email'])) {
+										$error->add('emailnotvalid', __('The email address is not valid, sorry.','membership'));
 									}
 
 									if(email_exists($_POST['signup_email'])) {
@@ -1738,15 +1765,22 @@ if(!class_exists('membershippublic')) {
 													'user_password' => $_POST['signup_password'],
 													'remember' => true
 												);
-												$is_ssl = (isset($_SERVER['https']) && strtolower($_SERVER['https']) == 'on' ? true : false);
-												$user = wp_signon( $creds, $is_ssl );
 
-												if ( is_wp_error($user) && method_exists($user, 'get_error_message') ) {
-													$error->add('userlogin', $user->get_error_message());
+												if(!headers_sent()) {
+													$is_ssl = (isset($_SERVER['https']) && strtolower($_SERVER['https']) == 'on' ? true : false);
+													$user = @wp_signon( $creds, $is_ssl );
+
+													if ( is_wp_error($user) && method_exists($user, 'get_error_message') ) {
+														$error->add('userlogin', $user->get_error_message());
+													} else {
+														// Set the current user up
+														wp_set_current_user( $user_id );
+													}
 												} else {
 													// Set the current user up
 													wp_set_current_user( $user_id );
 												}
+
 											}
 
 											if( has_action('membership_susbcription_form_registration_notification') ) {
@@ -1824,6 +1858,8 @@ if(!class_exists('membershippublic')) {
 				return '';
 			}
 
+			$html = '';
+
 			if(!empty($holder)) {
 				$html .= "<{$holder} class='{$holderclass}'>";
 			}
@@ -1877,6 +1913,8 @@ if(!class_exists('membershippublic')) {
 				return '';
 			}
 
+			$html = '';
+
 			if(!empty($holder)) {
 				$html .= "<{$holder} class='{$holderclass}'>";
 			}
@@ -1928,6 +1966,8 @@ if(!class_exists('membershippublic')) {
 			if(empty($subscription)) {
 				return '';
 			}
+
+			$html = '';
 
 			if(!empty($holder)) {
 				$html .= "<{$holder} class='{$holderclass}'>";
@@ -1988,7 +2028,7 @@ if(!class_exists('membershippublic')) {
 
 		function do_subscriptionbutton_shortcode($atts, $content = null, $code = "") {
 
-			global $wp_query;
+			global $wp_query, $M_options;
 
 			$defaults = array(	"holder"				=>	'',
 								"holderclass"			=>	'',
@@ -1999,16 +2039,26 @@ if(!class_exists('membershippublic')) {
 								"wrapwith"				=>	'',
 								"wrapwithclass"			=>	'',
 								"subscription"			=>	'',
-								"color"					=>	'blue'
+								"color"					=>	'blue',
+								'buttontext'			=> __('Subscribe', 'membership')
 							);
 
 			extract(shortcode_atts($defaults, $atts));
 
-			$link = admin_url( 'admin-ajax.php' );
-			$link .= '?action=buynow&amp;subscription=' . (int) $subscription;
+			if(isset($M_options['formtype']) && $M_options['formtype'] == 'new') {
+				// pop up form
+				$link = admin_url( 'admin-ajax.php' );
+				$link .= '?action=buynow&amp;subscription=' . (int) $subscription;
+				$class = 'popover';
+			} else {
+				// original form
+				$link = M_get_registration_permalink();
+				$link .= '?action=registeruser&amp;subscription=' . (int) $subscription;
+				$class = '';
+			}
 
 			if(empty($content)) {
-				$content = __('Subscribe', 'membership');
+				$content = $buttontext;
 			}
 
 			$html = "<a href='" . $link . "' class='popover button " . $color . "'>" . $content . "</a>";
@@ -2067,7 +2117,7 @@ if(!class_exists('membershippublic')) {
 							do_action('membership_subscriptionbutton_onpage');
 							// There is no shortcode content in there, so override
 							remove_filter( 'the_content', 'wpautop' );
-							$post->post_content = $this->do_subscription_form();
+							$post->post_content .= $this->do_subscription_form();
 						}
 					}
 					if($post->ID == $M_options['account_page']) {
@@ -2086,7 +2136,7 @@ if(!class_exists('membershippublic')) {
 							}
 							// There is no shortcode in there, so override
 							remove_filter( 'the_content', 'wpautop' );
-							$post->post_content = $this->do_account_form();
+							$post->post_content .= $this->do_account_form();
 						}
 					}
 					if($post->ID == $M_options['subscriptions_page']) {
@@ -2180,7 +2230,7 @@ if(!class_exists('membershippublic')) {
 							}
 							// There is no shortcode in there, so override
 							remove_filter( 'the_content', 'wpautop' );
-							$post->post_content = $this->do_renew_form();
+							$post->post_content .= $this->do_renew_form();
 						}
 					}
 					if($post->ID == $M_options['nocontent_page']) {
@@ -2257,6 +2307,8 @@ if(!class_exists('membershippublic')) {
 
 		function add_subscription_styles($posts) {
 
+			global $M_options;
+
 			foreach($posts as $key => $post) {
 				if(strstr($post->post_content, '[subscriptionform]') !== false) {
 					// The shortcode is in a post on this page, add the header
@@ -2323,20 +2375,24 @@ if(!class_exists('membershippublic')) {
 						wp_enqueue_style('fancyboxcss', membership_url('membershipincludes/js/fancybox/jquery.fancybox-1.3.4.css'));
 						wp_enqueue_script('fancyboxjs', membership_url('membershipincludes/js/fancybox/jquery.fancybox-1.3.4.pack.js'), array('jquery'), false, true);
 
-						wp_enqueue_script('popupmemjs', membership_url('membershipincludes/js/popupregistration.js'), array('jquery'), false, true);
-						wp_enqueue_style('popupmemcss', membership_url('membershipincludes/css/popupregistration.css'));
-
 						wp_enqueue_style('buttoncss', membership_url('membershipincludes/css/buttons.css'));
 
-						wp_localize_script('popupmemjs', 'membership', array(	'ajaxurl'	=>	admin_url( 'admin-ajax.php' ),
-						 														'registernonce'	=>	wp_create_nonce('membership_register'),
-																				'loginnonce'	=>	wp_create_nonce('membership_login'),
-																				'regproblem'	=>	__('Problem with registration.', 'membership'),
-																				'logpropblem'	=>	__('Problem with Login.', 'membership'),
-																				'regmissing'	=>	__('Please ensure you have completed all the fields','membership'),
-																				'regnomatch'	=>	__('Please ensure passwords match', 'membership'),
-																				'logmissing'	=>	__('Please ensure you have entered an username or password','membership')
-																			));
+						if(isset($M_options['formtype']) && $M_options['formtype'] == 'new') {
+							wp_enqueue_script('popupmemjs', membership_url('membershipincludes/js/popupregistration.js'), array('jquery'), false, true);
+							wp_enqueue_style('popupmemcss', membership_url('membershipincludes/css/popupregistration.css'));
+
+							wp_localize_script('popupmemjs', 'membership', array(	'ajaxurl'	=>	admin_url( 'admin-ajax.php' ),
+							 														'registernonce'	=>	wp_create_nonce('membership_register'),
+																					'loginnonce'	=>	wp_create_nonce('membership_login'),
+																					'regproblem'	=>	__('Problem with registration.', 'membership'),
+																					'logpropblem'	=>	__('Problem with Login.', 'membership'),
+																					'regmissing'	=>	__('Please ensure you have completed all the fields','membership'),
+																					'regnomatch'	=>	__('Please ensure passwords match', 'membership'),
+																					'logmissing'	=>	__('Please ensure you have entered an username or password','membership')
+																				));
+						}
+
+
 					}
 					do_action('membership_subscriptionbutton_onpage');
 

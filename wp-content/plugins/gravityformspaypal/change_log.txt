@@ -1,4 +1,12 @@
 ------------------------------------------------------------
+Version 1.7
+	- Fixed issue where submission still went to PayPal regardless of the feed being inactive
+	- Fixed issue where changing the form on an existing feed did not save the change
+    - Fixed error on entry info box (entry detail page) when editing entries
+    - Fixed issue that ignored discounts when total (product + discount) added up to zero.
+    - Fixed notice message
+
+------------------------------------------------------------
 Version 1.6
     - Updated "return mode" parameter so that it is a redirect for non-secure pages to avoid security warning message when returning from PayPal to the site
     - Added gform_paypal_request filter to allow entire request to PayPal to be filtered

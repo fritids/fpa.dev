@@ -102,7 +102,7 @@ class RGUserUpgrade{
             return -1;
         else
         {
-            $ary = explode("||", $raw_response['body']);
+            $ary = array_pad(explode("||", $raw_response['body']), 3, null);
             return array("is_valid_key" => $ary[0], "version" => $ary[1], "url" => $ary[2]);
         }
     }

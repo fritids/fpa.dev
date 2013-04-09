@@ -2,47 +2,49 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8283",
   "files" : {
-    "\/events\/events-list-load-widget-display.php" : {
+    "\/lib\/ico\/apple-touch-icon-57-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/events\/events-list-load-widget-display.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/lib\/ico\/apple-touch-icon-57-precomposed.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/ico\/apple-touch-icon-57-precomposed.png",
+      "initialSize" : 2862,
+      "fileType" : 8192
     },
-    "\/lib\/js\/vendor\/jquery-1.8.2.min.js" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/jquery.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/vendor\/jquery-1.8.2.min.js",
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/jquery.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/js\/vendor\/jquery-1.8.2.min.min.js",
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/jquery.min.js",
       "fileType" : 64
     },
-    "\/lib\/img\/loading.png" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-scrollspy.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/loading.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/loading.png",
-      "initialSize" : 5226,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-scrollspy.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-scrollspy.min.js",
+      "fileType" : 64
     },
-    "\/lib\/img\/navbar-bg.png" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-alert.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/navbar-bg.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/navbar-bg.png",
-      "initialSize" : 976,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-alert.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-alert.min.js",
+      "fileType" : 64
     },
     "\/lib\/scss\/_forms.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -56,15 +58,1268 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/lib\/img\/navbar-right-fold.png" : {
+    "\/template-learn-moves-ajax.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/navbar-right-fold.png",
+      "inputAbbreviatedPath" : "\/template-learn-moves-ajax.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-dropdown.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-dropdown.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-dropdown.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/css\/bootstrap-responsive.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/css\/bootstrap-responsive.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/bootstrap-responsive.min.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/bootstrap-responsive.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/responsive-1200px-min.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/responsive-1200px-min.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/responsive-1200px-min.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/inc\/page-header.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/inc\/page-header.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/utilities.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/utilities.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/utilities.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/404.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/404.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/google-code-prettify\/prettify.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/google-code-prettify\/prettify.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tests\/css-tests.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tests\/css-tests.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/css\/bootstrap.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/css\/bootstrap.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/example-sites\/kippt.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/example-sites\/kippt.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/navbar-right-fold.png",
-      "initialSize" : 1009,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/example-sites\/kippt.png",
+      "initialSize" : 48259,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tests\/forms.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tests\/forms.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/type.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/type.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/type.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/archive-moves.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive-moves.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/imgareaselect\/scripts\/jquery.imgareaselect.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/imgareaselect\/scripts\/jquery.imgareaselect.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/imgareaselect\/scripts\/jquery.imgareaselect.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/img\/split-bg.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/img\/split-bg.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/img\/split-bg.png",
+      "initialSize" : 128,
+      "fileType" : 8192
+    },
+    "\/archive-players.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive-players.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-hero.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-hero.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-hero.jpg",
+      "initialSize" : 19805,
+      "fileType" : 4096
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/navs.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/navs.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/navs.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-scrollspy.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-scrollspy.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-scrollspy.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tooltip.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tooltip.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/tooltip.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/popovers.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/popovers.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/popovers.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/archive-resources.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive-resources.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-dropdown.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-dropdown.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-dropdown.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/jquery\/jquery.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/jquery\/jquery.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/jquery\/jquery.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/jquery\/jquery.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/jquery\/jquery.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/jquery\/jquery.min.min.js",
+      "fileType" : 64
+    },
+    "\/ajax-load-media.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/ajax-load-media.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-popover.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-popover.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-popover.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/ico\/apple-touch-icon-57-precomposed.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/ico\/apple-touch-icon-57-precomposed.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/ico\/apple-touch-icon-57-precomposed.png",
+      "initialSize" : 4026,
+      "fileType" : 8192
+    },
+    "\/taxonomy-gallery-album.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/taxonomy-gallery-album.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/header.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/header.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/example-sites\/gathercontent.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/example-sites\/gathercontent.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/example-sites\/gathercontent.png",
+      "initialSize" : 76560,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-collapse.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-collapse.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-collapse.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/javascript.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/javascript.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/events\/gridview.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/events\/gridview.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-typeahead.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-typeahead.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-typeahead.min.js",
+      "fileType" : 64
+    },
+    "\/inc\/jetpack.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/inc\/jetpack.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/template-about-fpa.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/template-about-fpa.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/examples\/marketing-alternate.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/examples\/marketing-alternate.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/template-account-overview.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/template-account-overview.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/scaffolding.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/scaffolding.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/ico\/apple-touch-icon-114-precomposed.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/ico\/apple-touch-icon-114-precomposed.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/ico\/apple-touch-icon-114-precomposed.png",
+      "initialSize" : 11392,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-tab.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-tab.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-tab.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/img\/navbar-bg.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/img\/navbar-bg.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/img\/navbar-bg.png",
+      "initialSize" : 976,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/holder\/holder.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/holder\/holder.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/holder\/holder.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/examples\/carousel.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/examples\/carousel.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/ico\/apple-touch-icon-114-precomposed.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/ico\/apple-touch-icon-114-precomposed.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/ico\/apple-touch-icon-114-precomposed.png",
+      "initialSize" : 6895,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/bootstrap-mdo-sfmoma-03.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/bootstrap-mdo-sfmoma-03.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/bootstrap-mdo-sfmoma-03.jpg",
+      "initialSize" : 49063,
+      "fileType" : 4096
+    },
+    "\/events\/list.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/events\/list.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/img\/inset-border.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/img\/inset-border.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/img\/inset-border.png",
+      "initialSize" : 114,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/buttons.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/buttons.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/buttons.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/components.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/components.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/browser-icon-chrome.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/browser-icon-chrome.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/browser-icon-chrome.png",
+      "initialSize" : 55522,
+      "fileType" : 8192
+    },
+    "\/searchform.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/searchform.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-button.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-button.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-button.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/progress-bars.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/progress-bars.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/progress-bars.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/ajax-load-media.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/ajax-load-media.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/ajax-load-media.min.js",
+      "fileType" : 64
+    },
+    "\/template-learn-how.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/template-learn-how.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap.min.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/navbar.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/navbar.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/navbar.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-scrollspy.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-scrollspy.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-scrollspy.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-popover.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-popover.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-popover.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-button.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-button.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-button.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/example-sites\/jshint.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/example-sites\/jshint.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/example-sites\/jshint.png",
+      "initialSize" : 7258,
+      "fileType" : 8192
+    },
+    "\/template-membership.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/template-membership.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/scss\/_global.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/scss\/_global.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/css\/_global.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/comments.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/comments.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/less-logo-large.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/less-logo-large.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/less-logo-large.png",
+      "initialSize" : 12824,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/img\/inset-shadow-bottom.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/img\/inset-shadow-bottom.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/img\/inset-shadow-bottom.png",
+      "initialSize" : 943,
+      "fileType" : 8192
+    },
+    "\/lib\/img\/fpa-logo-big.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/img\/fpa-logo-big.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/img\/fpa-logo-big.png",
+      "initialSize" : 3945,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/vendor\/qunit.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/vendor\/qunit.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/template-events-resources.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/template-events-resources.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/slide-03.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/slide-03.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/slide-03.jpg",
+      "initialSize" : 137378,
+      "fileType" : 4096
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/browser-icon-firefox.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/browser-icon-firefox.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/browser-icon-firefox.png",
+      "initialSize" : 175994,
+      "fileType" : 8192
+    },
+    "\/rtl.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/rtl.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/custom-functions.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/custom-functions.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/events\/table.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/events\/table.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/img\/left-arrow.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/img\/left-arrow.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/img\/left-arrow.png",
+      "initialSize" : 249,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/example-sites\/breakingnews.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/example-sites\/breakingnews.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/example-sites\/breakingnews.png",
+      "initialSize" : 72725,
+      "fileType" : 8192
+    },
+    "\/template-store.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/template-store.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/events\/table-mini.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/events\/table-mini.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tests\/css-tests.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tests\/css-tests.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/inc\/gallery-item.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/inc\/gallery-item.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/content-single.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/content-single.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/server.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/server.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/server.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-fluid.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-fluid.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-fluid.jpg",
+      "initialSize" : 23408,
+      "fileType" : 4096
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/build\/jquery.awesome-cropper.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/build\/jquery.awesome-cropper.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/build\/jquery.awesome-cropper.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/img\/join-left-fold.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/img\/join-left-fold.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/img\/join-left-fold.png",
+      "initialSize" : 1618,
+      "fileType" : 8192
+    },
+    "\/lib\/img\/fpa-glyphs-small.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/img\/fpa-glyphs-small.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/img\/fpa-glyphs-small.png",
+      "initialSize" : 4931,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/slide-02.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/slide-02.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/slide-02.jpg",
+      "initialSize" : 137070,
+      "fileType" : 4096
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/bootstrap-responsive.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/bootstrap-responsive.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/lib\/ico\/apple-touch-icon-144-precomposed.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/ico\/apple-touch-icon-144-precomposed.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/ico\/apple-touch-icon-144-precomposed.png",
+      "initialSize" : 9240,
+      "fileType" : 8192
+    },
+    "\/events\/single.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/events\/single.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-tooltip.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-tooltip.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-tooltip.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/scss\/_font-awesome_asdf.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/scss\/_font-awesome_asdf.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/css\/_font-awesome_asdf.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/template-home.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/template-home.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/imgareaselect\/css\/imgareaselect-animated.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/imgareaselect\/css\/imgareaselect-animated.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-affix.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-affix.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-affix.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/img\/join-bg.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/img\/join-bg.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/img\/join-bg.png",
+      "initialSize" : 955,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/vendor\/modernizr-2.6.1-respond-1.1.0.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/vendor\/modernizr-2.6.1-respond-1.1.0.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/vendor\/modernizr-2.6.1-respond-1.1.0.min.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-alert.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-alert.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-alert.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/ajax-load-media.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/ajax-load-media.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/ajax-load-media.min.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/imgareaselect\/scripts\/jquery.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/imgareaselect\/scripts\/jquery.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/imgareaselect\/scripts\/jquery.min.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/slide-01.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/slide-01.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/slide-01.jpg",
+      "initialSize" : 83303,
+      "fileType" : 4096
+    },
+    "\/taxonomy-move-type.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/taxonomy-move-type.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/inc\/template-tags.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/inc\/template-tags.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/img\/main-bg.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/img\/main-bg.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/img\/main-bg.jpg",
+      "initialSize" : 102090,
+      "fileType" : 4096
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-alert.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-alert.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-alert.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/bs-docs-twitter-github.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/bs-docs-twitter-github.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/bs-docs-twitter-github.png",
+      "initialSize" : 30968,
+      "fileType" : 8192
+    },
+    "\/lib\/css\/compiled.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/css\/compiled.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/examples\/marketing-narrow.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/examples\/marketing-narrow.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/twitter_bootstrap_nav_walker.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/twitter_bootstrap_nav_walker.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/single.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/single.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/component-animations.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/component-animations.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/component-animations.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/bootstrap.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/bootstrap.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/bootstrap.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/example-sites\/8020select.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/example-sites\/8020select.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/example-sites\/8020select.png",
+      "initialSize" : 62853,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-carousel.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-carousel.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-carousel.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-transition.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-transition.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-transition.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/img\/fpa-glyphs.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/img\/fpa-glyphs.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/img\/fpa-glyphs.png",
+      "initialSize" : 7811,
       "fileType" : 8192
     },
     "\/events\/full-address.php" : {
@@ -73,6 +1328,546 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/events\/full-address.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/img\/file-download.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/img\/file-download.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/img\/file-download.png",
+      "initialSize" : 2973,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/imgareaselect\/css\/imgareaselect-default.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/imgareaselect\/css\/imgareaselect-default.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/bootstrap-mdo-sfmoma-01.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/bootstrap-mdo-sfmoma-01.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/bootstrap-mdo-sfmoma-01.jpg",
+      "initialSize" : 125346,
+      "fileType" : 4096
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/base-css.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/base-css.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/scss\/_components.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/scss\/_components.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/css\/_components.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/events\/events-list-load-widget-display.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/events\/events-list-load-widget-display.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/template-events-results.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/template-events-results.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-collapse.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-collapse.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-collapse.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tests\/buttons.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tests\/buttons.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/getting-started.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/getting-started.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/grid.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/grid.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/grid.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/forms.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/forms.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/forms.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-tab.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-tab.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-tab.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-dropdown.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-dropdown.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-dropdown.min.js",
+      "fileType" : 64
+    },
+    "\/inc\/extras.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/inc\/extras.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-carousel.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-carousel.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-carousel.png",
+      "initialSize" : 53908,
+      "fileType" : 8192
+    },
+    "\/image.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/image.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/template-half-half.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/template-half-half.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/ico\/apple-touch-icon-72-precomposed.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/ico\/apple-touch-icon-72-precomposed.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/ico\/apple-touch-icon-72-precomposed.png",
+      "initialSize" : 5681,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/bootstrap.min.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/bootstrap.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/lib\/js\/main.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/main.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/main.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/imgareaselect\/scripts\/jquery.imgareaselect.pack.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/imgareaselect\/scripts\/jquery.imgareaselect.pack.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/imgareaselect\/scripts\/jquery.imgareaselect.pack.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/img\/glyphicons-halflings-white.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/img\/glyphicons-halflings-white.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/img\/glyphicons-halflings-white.png",
+      "initialSize" : 8777,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-transition.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-transition.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-transition.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/glyphicons-halflings-white.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/glyphicons-halflings-white.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/glyphicons-halflings-white.png",
+      "initialSize" : 8777,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/vendor\/jquery.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/vendor\/jquery.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/vendor\/jquery.min.js",
+      "fileType" : 64
+    },
+    "\/search.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/search.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/config.rb" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/config.rb",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 32768
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/bs-docs-responsive-illustrations.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/bs-docs-responsive-illustrations.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/bs-docs-responsive-illustrations.png",
+      "initialSize" : 10572,
+      "fileType" : 8192
+    },
+    "\/lib\/img\/loading.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/img\/loading.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/img\/loading.png",
+      "initialSize" : 5226,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/code.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/code.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/code.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-typeahead.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-typeahead.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-typeahead.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/alerts.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/alerts.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/alerts.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/content.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/content.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/img\/pdf-download.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/img\/pdf-download.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/img\/pdf-download.png",
+      "initialSize" : 3331,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-starter.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-starter.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-starter.jpg",
+      "initialSize" : 5584,
+      "fileType" : 4096
+    },
+    "\/lib\/scss\/_buttons.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/scss\/_buttons.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/css\/_buttons.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/phantom.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/phantom.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/phantom.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/layouts.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/layouts.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/layouts.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/carousel.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/carousel.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/carousel.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/template-players.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/template-players.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/ico\/apple-touch-icon-144-precomposed.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/ico\/apple-touch-icon-144-precomposed.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/ico\/apple-touch-icon-144-precomposed.png",
+      "initialSize" : 16780,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-transition.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-transition.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-transition.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-affix.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-affix.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-affix.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/scss\/compiled.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/scss\/compiled.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/css\/compiled.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/style.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/screenshot.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/screenshot.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/screenshot.png",
+      "initialSize" : 1406,
+      "fileType" : 8192
+    },
+    "\/functions.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/functions.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/imgareaselect\/scripts\/jquery.imgareaselect.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/imgareaselect\/scripts\/jquery.imgareaselect.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/imgareaselect\/scripts\/jquery.imgareaselect.min.min.js",
+      "fileType" : 64
+    },
+    "\/inc\/custom-header.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/inc\/custom-header.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -88,166 +1883,12 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/lib\/css\/responsive.min.css" : {
+    "\/template-learn-moves.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/css\/responsive.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/lib\/css\/site.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/css\/site.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/functions.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/functions.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/template-events-resources.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/template-events-resources.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/events\/table.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/events\/table.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/template-about-freestyle.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/template-about-freestyle.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/style.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/lib\/img\/fpa-glyphs-small.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/fpa-glyphs-small.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/fpa-glyphs-small.png",
-      "initialSize" : 4931,
-      "fileType" : 8192
-    },
-    "\/lib\/ico\/apple-touch-icon-114-precomposed.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/ico\/apple-touch-icon-114-precomposed.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/ico\/apple-touch-icon-114-precomposed.png",
-      "initialSize" : 6895,
-      "fileType" : 8192
-    },
-    "\/custom-functions.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/custom-functions.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/twitter_bootstrap_nav_walker.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/twitter_bootstrap_nav_walker.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/image.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/image.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/img\/main-bg.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/main-bg.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/main-bg.jpg",
-      "initialSize" : 102090,
-      "fileType" : 4096
-    },
-    "\/lib\/js\/main.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/main.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/js\/main.min.min.js",
-      "fileType" : 64
-    },
-    "\/lib\/img\/inset-shadow-top.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/inset-shadow-top.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/inset-shadow-top.png",
-      "initialSize" : 945,
-      "fileType" : 8192
-    },
-    "\/template-sidebar-left.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/template-sidebar-left.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/searchform.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/searchform.php",
+      "inputAbbreviatedPath" : "\/template-learn-moves.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -260,274 +1901,219 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/css\/responsive.css" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/css\/responsive.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/lib\/js\/vendor\/bootstrap.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/vendor\/bootstrap.min.js",
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/js\/vendor\/bootstrap.min.min.js",
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap.min.js",
       "fileType" : 64
     },
-    "\/lib\/img\/pdf-download.png" : {
+    "\/template-login.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/pdf-download.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/pdf-download.png",
-      "initialSize" : 3331,
-      "fileType" : 8192
-    },
-    "\/template-learn-moves-ajax.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/template-learn-moves-ajax.php",
+      "inputAbbreviatedPath" : "\/template-login.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/template-join.php" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-carousel.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/template-join.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/img\/inset-border.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/inset-border.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/inset-border.png",
-      "initialSize" : 114,
-      "fileType" : 8192
-    },
-    "\/inc\/post.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/post.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/template-gallery-press.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/template-gallery-press.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/css\/font-awesome-corp.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/css\/font-awesome-corp.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/archive-moves.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive-moves.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/template-half-half.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/template-half-half.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/img\/left-arrow.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/left-arrow.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/left-arrow.png",
-      "initialSize" : 249,
-      "fileType" : 8192
-    },
-    "\/lib\/css\/font-awesome.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/css\/font-awesome.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/lib\/js\/vendor\/modernizr-2.6.1-respond-1.1.0.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/vendor\/modernizr-2.6.1-respond-1.1.0.min.js",
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-carousel.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/js\/vendor\/modernizr-2.6.1-respond-1.1.0.min.min.js",
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-carousel.min.js",
       "fileType" : 64
     },
-    "\/lib\/js\/main.js" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tests\/navbar.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/main.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/js\/main.min.js",
-      "fileType" : 64
-    },
-    "\/inc\/extras.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/extras.php",
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tests\/navbar.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/index.php" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/examples\/hero.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.php",
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/examples\/hero.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/events\/ecp-page-template.php" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/bs-docs-bootstrap-features.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/events\/ecp-page-template.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/taxonomy-gallery-album.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/taxonomy-gallery-album.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/ico\/apple-touch-icon-72-precomposed.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/ico\/apple-touch-icon-72-precomposed.png",
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/bs-docs-bootstrap-features.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/ico\/apple-touch-icon-72-precomposed.png",
-      "initialSize" : 3904,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/bs-docs-bootstrap-features.png",
+      "initialSize" : 11244,
       "fileType" : 8192
     },
-    "\/no-results.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/no-results.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/img\/searchsubmit.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/searchsubmit.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/searchsubmit.png",
-      "initialSize" : 1302,
-      "fileType" : 8192
-    },
-    "\/lib\/css\/compiled.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/css\/compiled.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/lib\/css\/font-awesome-ext.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/css\/font-awesome-ext.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/lib\/scss\/_font-awesome.scss" : {
+    "\/lib\/scss\/_typography.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/scss\/_font-awesome.scss",
+      "inputAbbreviatedPath" : "\/lib\/scss\/_typography.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/css\/_font-awesome.css",
+      "outputAbbreviatedPath" : "\/lib\/css\/_typography.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/archive.php" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/glyphicons-halflings.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive.php",
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/glyphicons-halflings.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/glyphicons-halflings.png",
+      "initialSize" : 12799,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-modal.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-modal.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-modal.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/main.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/main.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/main.min.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/img\/navbar-right-fold.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/img\/navbar-right-fold.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/img\/navbar-right-fold.png",
+      "initialSize" : 1009,
+      "fileType" : 8192
+    },
+    "\/template-membership-options.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/template-membership-options.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/inc\/customizer.php" : {
+    "\/lib\/img\/logo.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/customizer.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/lib\/img\/logo.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/img\/logo.png",
+      "initialSize" : 4986,
+      "fileType" : 8192
     },
-    "\/comments.php" : {
+    "\/lib\/scss\/_pages.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/scss\/_pages.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/css\/_pages.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/button-groups.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/button-groups.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/button-groups.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-sticky-footer.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/comments.php",
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-sticky-footer.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-sticky-footer.png",
+      "initialSize" : 9749,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/example-sites\/fleetio.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/example-sites\/fleetio.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/example-sites\/fleetio.png",
+      "initialSize" : 39837,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/grid-baseline-20px.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/grid-baseline-20px.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/grid-baseline-20px.png",
+      "initialSize" : 84,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/sprites.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/sprites.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/sprites.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/footer.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/footer.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -543,375 +2129,34 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/screenshot.png" : {
+    "\/lib\/img\/right-arrow.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/screenshot.png",
+      "inputAbbreviatedPath" : "\/lib\/img\/right-arrow.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/screenshot.png",
-      "initialSize" : 1406,
+      "outputAbbreviatedPath" : "\/lib\/img\/right-arrow.png",
+      "initialSize" : 266,
       "fileType" : 8192
     },
-    "\/inc\/template-tags.php" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-modal.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/template-tags.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-modal.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-modal.min.js",
+      "fileType" : 64
     },
-    "\/template-store.php" : {
+    "\/taxonomy-media-type.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/template-store.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/css\/font-awesome-ie7.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/css\/font-awesome-ie7.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/header.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/header.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/img\/social-glyphs.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/social-glyphs.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/social-glyphs.png",
-      "initialSize" : 4130,
-      "fileType" : 8192
-    },
-    "\/template-learn-moves.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/template-learn-moves.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/img\/logo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/logo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/logo.png",
-      "initialSize" : 4986,
-      "fileType" : 8192
-    },
-    "\/lib\/css\/font-awesome.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/css\/font-awesome.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/template-players.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/template-players.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/inc\/page-header.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/page-header.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/css\/sprites.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/css\/sprites.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/inc\/custom-header.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/custom-header.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/img\/arrows.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/arrows.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/arrows.png",
-      "initialSize" : 373,
-      "fileType" : 8192
-    },
-    "\/lib\/ico\/apple-touch-icon-144-precomposed.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/ico\/apple-touch-icon-144-precomposed.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/ico\/apple-touch-icon-144-precomposed.png",
-      "initialSize" : 9240,
-      "fileType" : 8192
-    },
-    "\/lib\/img\/downloads.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/downloads.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/downloads.png",
-      "initialSize" : 7701,
-      "fileType" : 8192
-    },
-    "\/lib\/css\/font-awesome-ext.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/css\/font-awesome-ext.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/page.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/page.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/rtl.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/rtl.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/content.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/content.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/css\/site.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/css\/site.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/lib\/img\/file-download.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/file-download.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/file-download.png",
-      "initialSize" : 2973,
-      "fileType" : 8192
-    },
-    "\/template-events-results.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/template-events-results.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/template-learn-how.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/template-learn-how.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/img\/join-left-fold.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/join-left-fold.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/join-left-fold.png",
-      "initialSize" : 1618,
-      "fileType" : 8192
-    },
-    "\/lib\/scss\/_mixins.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/scss\/_mixins.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/css\/_mixins.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/lib\/scss\/compiled.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/scss\/compiled.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/css\/compiled.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/lib\/scss\/_global.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/scss\/_global.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/css\/_global.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/lib\/img\/split-inset-bg.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/split-inset-bg.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/split-inset-bg.png",
-      "initialSize" : 142,
-      "fileType" : 8192
-    },
-    "\/archive-resources.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive-resources.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/scss\/_buttons.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/scss\/_buttons.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/css\/_buttons.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/archive-players.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive-players.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/css\/font-awesome-more-ie7.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/css\/font-awesome-more-ie7.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/inc\/jetpack.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/jetpack.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/events\/single.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/events\/single.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/taxonomy-move-type.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/taxonomy-move-type.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/template-about-fpa.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/template-about-fpa.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/404.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/404.php",
+      "inputAbbreviatedPath" : "\/taxonomy-media-type.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -926,26 +2171,163 @@
       "initialSize" : 928,
       "fileType" : 8192
     },
-    "\/lib\/scss\/_typography.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/scss\/_typography.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/css\/_typography.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
-    "\/events\/table-mini.php" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/examples\/signin.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/events\/table-mini.php",
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/examples\/signin.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/dropdowns.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/dropdowns.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/dropdowns.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/modals.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/modals.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/modals.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/img\/glyphicons-halflings.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/img\/glyphicons-halflings.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/img\/glyphicons-halflings.png",
+      "initialSize" : 12799,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/extend.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/extend.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/vendor\/bootstrap.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/vendor\/bootstrap.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/vendor\/bootstrap.min.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/accordion.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/accordion.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/accordion.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-tab.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-tab.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-tab.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/bootstrap.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/bootstrap.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-signin.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-signin.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-signin.png",
+      "initialSize" : 4202,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-popover.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-popover.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-popover.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/scaffolding.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/scaffolding.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/scaffolding.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/media.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/media.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/media.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-affix.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-affix.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-affix.min.js",
+      "fileType" : 64
     },
     "\/events\/ecp-single-template.php" : {
       "ignoreWasSetByUser" : 0,
@@ -956,277 +2338,249 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/moves-loop.php" : {
+    "\/inc\/customizer.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/moves-loop.php",
+      "inputAbbreviatedPath" : "\/inc\/customizer.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/img\/fpa-glyphs.png" : {
+    "\/lib\/img\/arrows.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/fpa-glyphs.png",
+      "inputAbbreviatedPath" : "\/lib\/img\/arrows.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/fpa-glyphs.png",
-      "initialSize" : 7811,
+      "outputAbbreviatedPath" : "\/lib\/img\/arrows.png",
+      "initialSize" : 373,
       "fileType" : 8192
     },
-    "\/lib\/css\/font-awesome-social.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/css\/font-awesome-social.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/lib\/css\/sprites.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/css\/sprites.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/template-home.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/template-home.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/inc\/gallery-archive.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/gallery-archive.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/events\/list.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/events\/list.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/css\/font-awesome-corp.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/css\/font-awesome-corp.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/lib\/img\/right-arrow.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/right-arrow.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/right-arrow.png",
-      "initialSize" : 266,
-      "fileType" : 8192
-    },
-    "\/lib\/img\/frisbee.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/frisbee.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/frisbee.png",
-      "initialSize" : 842,
-      "fileType" : 8192
-    },
-    "\/lib\/scss\/_structure.scss" : {
+    "\/lib\/scss\/_mixins.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/scss\/_structure.scss",
+      "inputAbbreviatedPath" : "\/lib\/scss\/_mixins.scss",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/css\/_structure.css",
+      "outputAbbreviatedPath" : "\/lib\/css\/_mixins.css",
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/lib\/scss\/_components.scss" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/examples\/starter-template.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/examples\/starter-template.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/img\/searchsubmit.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/img\/searchsubmit.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/img\/searchsubmit.png",
+      "initialSize" : 1302,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/thumbnails.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/scss\/_components.scss",
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/thumbnails.less",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/css\/_components.css",
-      "fileType" : 4,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/thumbnails.css",
+      "strictImports" : 0,
+      "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/lib\/ico\/apple-touch-icon-57-precomposed.png" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap.min.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/ico\/apple-touch-icon-57-precomposed.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/ico\/apple-touch-icon-57-precomposed.png",
-      "initialSize" : 2862,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap.min.min.js",
+      "fileType" : 64
     },
-    "\/content-page.php" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/css\/jquery.awesome-cropper.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/content-page.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/footer.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/footer.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/config.rb" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/config.rb",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 32768
-    },
-    "\/lib\/css\/font-awesome-ie7.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/css\/font-awesome-ie7.css",
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/css\/jquery.awesome-cropper.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/single.php" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-collapse.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/single.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-collapse.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-collapse.min.js",
+      "fileType" : 64
     },
-    "\/lib\/img\/fpa-logo-big.png" : {
+    "\/lib\/img\/social-glyphs.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/fpa-logo-big.png",
+      "inputAbbreviatedPath" : "\/lib\/img\/social-glyphs.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/fpa-logo-big.png",
-      "initialSize" : 3945,
+      "outputAbbreviatedPath" : "\/lib\/img\/social-glyphs.png",
+      "initialSize" : 4130,
       "fileType" : 8192
     },
-    "\/taxonomy-media-type.php" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-typeahead.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/taxonomy-media-type.php",
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-typeahead.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-typeahead.min.js",
+      "fileType" : 64
+    },
+    "\/template-about-sport.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/template-about-sport.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/img\/join-bg.png" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/bs-docs-masthead-pattern.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/join-bg.png",
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/bs-docs-masthead-pattern.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/join-bg.png",
-      "initialSize" : 955,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/bs-docs-masthead-pattern.png",
+      "initialSize" : 6450,
       "fileType" : 8192
     },
-    "\/search.php" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-button.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/search.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-button.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-button.min.js",
+      "fileType" : 64
     },
-    "\/template-full-width.php" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/example-sites\/adoptahydrant.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/template-full-width.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/content-single.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/content-single.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/events\/gridview.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/events\/gridview.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/css\/font-awesome-social.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/css\/font-awesome-social.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/lib\/css\/font-awesome-more-ie7.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/css\/font-awesome-more-ie7.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/lib\/img\/inset-shadow-bottom.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/inset-shadow-bottom.png",
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/example-sites\/adoptahydrant.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/inset-shadow-bottom.png",
-      "initialSize" : 943,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/example-sites\/adoptahydrant.png",
+      "initialSize" : 136480,
       "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/bootstrap-mdo-sfmoma-02.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/bootstrap-mdo-sfmoma-02.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/bootstrap-mdo-sfmoma-02.jpg",
+      "initialSize" : 81284,
+      "fileType" : 4096
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/responsive-767px-max.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/responsive-767px-max.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/responsive-767px-max.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/no-results.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/no-results.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/example-sites\/soundready.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/example-sites\/soundready.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/example-sites\/soundready.png",
+      "initialSize" : 50225,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/browser-icon-safari.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/browser-icon-safari.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/browser-icon-safari.png",
+      "initialSize" : 209527,
+      "fileType" : 8192
+    },
+    "\/author.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/author.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/build\/index.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/build\/index.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/build\/index.min.js",
+      "fileType" : 64
+    },
+    "\/inc\/post.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/inc\/post.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/lib\/img\/navbar-left-fold.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1239,23 +2593,581 @@
       "initialSize" : 1013,
       "fileType" : 8192
     },
-    "\/lib\/css\/compiled.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/css\/compiled.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/inc\/gallery-item.php" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-tooltip.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/gallery-item.php",
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-tooltip.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-tooltip.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/vendor\/jquery-1.8.2.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/vendor\/jquery-1.8.2.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/vendor\/jquery-1.8.2.min.min.js",
+      "fileType" : 64
+    },
+    "\/archive.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tests\/forms-responsive.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tests\/forms-responsive.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/examples\/fluid.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/examples\/fluid.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/page.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/page.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/template-about-contact.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/template-about-contact.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/hero-unit.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/hero-unit.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/hero-unit.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-carousel.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-carousel.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-carousel.min.js",
+      "fileType" : 64
+    },
+    "\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/breadcrumbs.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/breadcrumbs.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/breadcrumbs.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/ico\/apple-touch-icon-72-precomposed.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/ico\/apple-touch-icon-72-precomposed.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/ico\/apple-touch-icon-72-precomposed.png",
+      "initialSize" : 3904,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/responsive-utilities.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/responsive-utilities.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/responsive-utilities.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/responsive.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/responsive.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/responsive.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/src\/jquery.awesome-cropper.coffee" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/src\/jquery.awesome-cropper.coffee",
+      "checkOutputStyle" : 0,
+      "minifyOutput" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/src\/jquery.awesome-cropper.js",
+      "outputStyle" : 0,
+      "fileType" : 32
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/responsive-768px-979px.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/responsive-768px-979px.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/responsive-768px-979px.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/customize.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/customize.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tests\/navbar-fixed-top.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tests\/navbar-fixed-top.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-modal.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-modal.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-modal.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/close.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/close.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/close.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/img\/split-inset-bg.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/img\/split-inset-bg.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/img\/split-inset-bg.png",
+      "initialSize" : 142,
+      "fileType" : 8192
+    },
+    "\/lib\/img\/inset-shadow-top.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/img\/inset-shadow-top.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/img\/inset-shadow-top.png",
+      "initialSize" : 945,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/vendor\/qunit.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/vendor\/qunit.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/vendor\/qunit.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/img\/frisbee.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/img\/frisbee.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/img\/frisbee.png",
+      "initialSize" : 842,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/variables.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/variables.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/variables.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/single-move.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/single-move.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/application.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/application.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/application.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/reset.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/reset.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/reset.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/responsive-illustrations.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/responsive-illustrations.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/responsive-illustrations.png",
+      "initialSize" : 1008,
+      "fileType" : 8192
+    },
+    "\/template-about-press.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/template-about-press.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/examples\/sticky-footer.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/examples\/sticky-footer.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/pager.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/pager.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/pager.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/pagination.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/pagination.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/pagination.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/google-code-prettify\/prettify.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/google-code-prettify\/prettify.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/google-code-prettify\/prettify.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/responsive-navbar.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/responsive-navbar.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/responsive-navbar.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/events\/ecp-page-template.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/events\/ecp-page-template.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/mixins.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/mixins.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/mixins.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/template-sidebar-left.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/template-sidebar-left.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/labels-badges.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/labels-badges.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/labels-badges.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tables.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tables.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/tables.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/ico\/favicon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/ico\/favicon.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/ico\/favicon.png",
+      "initialSize" : 2711,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-phantom.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-phantom.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-phantom.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/imgareaselect\/css\/imgareaselect-deprecated.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/imgareaselect\/css\/imgareaselect-deprecated.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/lib\/img\/downloads.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/img\/downloads.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/img\/downloads.png",
+      "initialSize" : 7701,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/css\/docs.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/css\/docs.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-tooltip.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-tooltip.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-tooltip.min.js",
+      "fileType" : 64
+    },
+    "\/content-page.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/content-page.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tests\/navbar-static-top.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tests\/navbar-static-top.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/inc\/gallery-archive.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/inc\/gallery-archive.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/template-full-width.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/template-full-width.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/wells.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/wells.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/wells.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-marketing-narrow.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-marketing-narrow.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/bootstrap-example-marketing-narrow.png",
+      "initialSize" : 21869,
+      "fileType" : 8192
     }
   },
   "manualImportLinks" : [
