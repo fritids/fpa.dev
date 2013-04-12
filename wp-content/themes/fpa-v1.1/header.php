@@ -77,9 +77,9 @@ $class = (isset($_GET['class'])) ? $_GET['class'] : 0;
 					</div>
 				</div>
 				
-				<?php if(!is_user_logged_in()) { ?>
+				<!--<?php if(!is_user_logged_in()) { ?>
 					<a href="<?php echo site_url(); ?>/login/" class="login-link pull-right">Already a FPA Member? Login Here</a>
-				<?php } ?>
+				<?php } ?> -->
 			</div><!-- #branding -->
 			
 			<div id="header-accent" class="row-fluid checker"></div>

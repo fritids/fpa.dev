@@ -485,13 +485,35 @@
 		}
 	}
 }
-.victories {
-	li {
-		padding: $pad/2 0;
-		border-bottom: 1px solid #eee;
-		text-transform: capitalize;
+.player-events {
+	min-width: 100%;
+	td {
+		padding: 10px;
+	}
+	.labels {
+		background-color: $red;
+		color: white;
+		border: 1px solid $red;
+		.finish-label {
+			text-align: center;
+		}
+	}
+	.player-event {
+		border-top: 1px solid #eee;
+		.player-event-name {
+			width: 80%;
+			border-right: 1px solid #eee;
+			border-left: 1px solid #eee;
+		}
+		.player-event-finish {
+			width: 20%;
+			border-right: 1px solid #eee;
+			text-align: center;
+			font-size: 20px;
+			font-weight: bold;
+		}
 		&:last-child {
-			border: 0;
+			border-bottom: 1px solid #eee;
 		}
 	}
 }

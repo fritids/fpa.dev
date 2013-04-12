@@ -262,3 +262,29 @@ register_nav_menus( array(
 register_nav_menus( array(
 	'account-menu' => 'Account Menu'
 ));
+
+//POST RELATIONSHIPS
+/////////////////////////////////////////////////////////////////////
+function my_connection_types() {
+	p2p_register_connection_type( 
+		array(
+		    'name'				=> 'player_to_event',
+		    'from'				=> 'player',
+		    'to'				=> 'tribe_events',
+		    'admin_column'		=> true,
+		    'admin_dropdown'	=> true,
+		    'admin_box'			=> array('show' => 'any', 'context' => 'advanced'),
+		    'fields'			=> array(
+		    	'round'	=> array(
+		    		'title'	=> 'Round',
+		    		'type'	=> 'text'
+		    	),
+		    	'finish'	=> array(
+		    		'title'	=> 'Finished',
+		    		'type'	=> 'number'
+		    	)
+		    )
+		)
+	);
+}
+add_action( 'p2p_init', 'my_connection_types' );

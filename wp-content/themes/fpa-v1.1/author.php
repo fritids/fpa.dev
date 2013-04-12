@@ -36,15 +36,26 @@ page_header($full_name); ?>
 		</ul>
 	</section>
 	<section class="span4 plain">
-		<h4>Event Victories</h4>
-		<ul class="victories">
-			<li><a href="#">Lorem ipsum dolor sit amet</a></li>
-			<li><a href="#">onsectetur adipisicing elit</a></li>
-			<li><a href="#">sed do eiusmod tempor incididunt ut labore</a></li>
-			<li><a href="#">et dolore magna aliqua. Ut enim ad minim veniam</a></li>
-			<li><a href="#">quis nostrud exercitation ullamco laboris nisi</a></li> 
-			<li><a href="#">ut aliquip ex ea commodo consequat</a></li>
-		</ul>
+		<h4>Recent Finishes</h4>
+		<?php
+		$events = new WP_Query( array(
+			  'connected_type' => 'player_to_event',
+			  'connected_items' => get_user_by( 'slug', $author_name ),
+			  'suppress_filters' => false,
+			  'nopaging' => true
+			) 
+		);
+		if($events->have_posts()) : ?>
+			<table class="player-events">
+				<tr class="labels"><td class="event-label">Event</td><td class="finish-label">Finish</td></tr>
+				<?php while($events->have_posts()) : $events->the_post();
+					$eventTitle = get_the_title();
+					$eventLink = get_permalink();
+					$finish = p2p_get_meta( $post->p2p_id, 'finish', true );
+					echo '<tr class="player-event"><td class="player-event-name"><a href="' . $eventLink . '">' . $eventTitle . '</a></td><td class="player-event-finish">' . $finish . '</td></tr>';
+				endwhile; ?>
+			</table>
+		<?php endif; ?>
 	</section>
 </div>
 

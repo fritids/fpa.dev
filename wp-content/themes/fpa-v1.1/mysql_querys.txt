@@ -1,0 +1,5 @@
+Get all players and their profiles, if they have one
+select * from players left outer join profiles on players.ID = profiles.ID;
+
+Get all players with profiles
+select * from players left outer join profiles on players.ID = profiles.ID where profiles.user_pass is not null;

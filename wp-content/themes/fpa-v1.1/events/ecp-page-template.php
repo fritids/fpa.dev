@@ -24,6 +24,12 @@ if ( !defined('ABSPATH') ) { die('-1'); } ?>
 			<?php include(tribe_get_current_template()); ?>
 			<?php tribe_events_after_html(); ?>
 		</section>
+		<div class="row-fluid parent-row btn-area">
+			<a href="#" class="span12 primary-btn">
+				<div class="btn-icon globe"></div>
+				<h4>FPA Worlds</h4>
+			</a>
+		</div>
 	</div>
 	<div class="span5 no-pad">
 		<section class="row-fluid plain">

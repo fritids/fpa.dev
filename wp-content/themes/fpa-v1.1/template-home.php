@@ -67,7 +67,10 @@
 		</div>
 	</section>
 	<div class="span4">
-		<section class="row-fluid plain">
+		<section class="row-fluid no-pad plain">
+			<img src="http://placehold.it/370x300" />
+		</section>
+		<section class="row-fluid parent-row plain">
 			<?php tribe_calendar_mini_grid(); ?>
 		</section>
 	</div>
