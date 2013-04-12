@@ -13,14 +13,16 @@
       "initialSize" : 2862,
       "fileType" : 8192
     },
-    "\/template-full-width.php" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/jquery.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/template-full-width.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/jquery.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/jquery.min.js",
+      "fileType" : 64
     },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-scrollspy.js" : {
       "ignoreWasSetByUser" : 0,
@@ -85,14 +87,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/bootstrap-responsive.min.css" : {
+    "\/inc\/page-header.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/bootstrap-responsive.min.css",
+      "inputAbbreviatedPath" : "\/inc\/page-header.php",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "fileType" : 2048
     },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/responsive-1200px-min.less" : {
       "ignoreWasSetByUser" : 0,
@@ -107,15 +109,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/inc\/page-header.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/page-header.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/utilities.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -128,6 +121,15 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/bootstrap-responsive.min.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/bootstrap-responsive.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/404.php" : {
       "ignoreWasSetByUser" : 0,
@@ -144,6 +146,15 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/google-code-prettify\/prettify.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tests\/css-tests.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tests\/css-tests.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
@@ -164,15 +175,6 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/css\/bootstrap.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tests\/css-tests.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tests\/css-tests.css",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
@@ -249,6 +251,17 @@
       "initialSize" : 19805,
       "fileType" : 4096
     },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-scrollspy.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-scrollspy.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-scrollspy.min.js",
+      "fileType" : 64
+    },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/navs.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -261,17 +274,6 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-scrollspy.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-scrollspy.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-scrollspy.min.js",
-      "fileType" : 64
     },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/popovers.less" : {
       "ignoreWasSetByUser" : 0,
@@ -310,6 +312,15 @@
       "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/jquery\/jquery.min.js",
       "fileType" : 64
     },
+    "\/archive-resources.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive-resources.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-dropdown.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -320,15 +331,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-dropdown.min.js",
       "fileType" : 64
-    },
-    "\/archive-resources.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive-resources.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/jquery\/jquery.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -570,17 +572,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/img\/inset-border.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/inset-border.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/inset-border.png",
-      "initialSize" : 114,
-      "fileType" : 8192
-    },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/components.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -602,6 +593,17 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/lib\/img\/inset-border.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/img\/inset-border.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/img\/inset-border.png",
+      "initialSize" : 114,
+      "fileType" : 8192
     },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/browser-icon-chrome.png" : {
       "ignoreWasSetByUser" : 0,
@@ -647,15 +649,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/template-learn-how.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/template-learn-how.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/js\/ajax-load-media.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -666,6 +659,15 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/lib\/js\/ajax-load-media.min.js",
       "fileType" : 64
+    },
+    "\/template-learn-how.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/template-learn-how.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1130,17 +1132,6 @@
       "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-alert.min.js",
       "fileType" : 64
     },
-    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/imgareaselect\/scripts\/jquery.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/imgareaselect\/scripts\/jquery.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/imgareaselect\/scripts\/jquery.min.min.js",
-      "fileType" : 64
-    },
     "\/lib\/js\/ajax-load-media.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1150,6 +1141,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/lib\/js\/ajax-load-media.min.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/imgareaselect\/scripts\/jquery.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/imgareaselect\/scripts\/jquery.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/imgareaselect\/scripts\/jquery.min.min.js",
       "fileType" : 64
     },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/examples\/slide-01.jpg" : {
@@ -1432,15 +1434,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/getting-started.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/getting-started.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/grid.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -1454,16 +1447,14 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-dropdown.js" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/getting-started.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-dropdown.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-dropdown.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/getting-started.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-tab.js" : {
       "ignoreWasSetByUser" : 0,
@@ -1474,6 +1465,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-tab.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-dropdown.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-dropdown.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-dropdown.min.js",
       "fileType" : 64
     },
     "\/inc\/extras.php" : {
@@ -1505,15 +1507,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/bootstrap.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/bootstrap.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/template-half-half.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1522,6 +1515,15 @@
       "inputAbbreviatedPath" : "\/template-half-half.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/bootstrap.min.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/bootstrap.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/ico\/apple-touch-icon-72-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1673,18 +1675,14 @@
       "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-typeahead.min.js",
       "fileType" : 64
     },
-    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/alerts.less" : {
+    "\/content.php" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/alerts.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/alerts.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/content.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/temp-db.php" : {
       "ignoreWasSetByUser" : 0,
@@ -1692,15 +1690,6 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/temp-db.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/content.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/content.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -1726,16 +1715,17 @@
       "initialSize" : 5584,
       "fileType" : 4096
     },
-    "\/lib\/scss\/_buttons.scss" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/alerts.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/scss\/_buttons.scss",
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/alerts.less",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/css\/_buttons.css",
-      "fileType" : 4,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/alerts.css",
+      "strictImports" : 0,
+      "fileType" : 1,
       "debugStyle" : 0
     },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/phantom.js" : {
@@ -1748,6 +1738,18 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/phantom.min.js",
       "fileType" : 64
+    },
+    "\/lib\/scss\/_buttons.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/scss\/_buttons.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/css\/_buttons.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/layouts.less" : {
       "ignoreWasSetByUser" : 0,
@@ -2124,28 +2126,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-modal.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-modal.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-modal.min.js",
-      "fileType" : 64
-    },
-    "\/lib\/img\/right-arrow.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/img\/right-arrow.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/img\/right-arrow.png",
-      "initialSize" : 266,
-      "fileType" : 8192
-    },
     "\/lib\/scss\/_variables.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2158,14 +2138,27 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/taxonomy-media-type.php" : {
+    "\/lib\/img\/right-arrow.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/taxonomy-media-type.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/lib\/img\/right-arrow.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/img\/right-arrow.png",
+      "initialSize" : 266,
+      "fileType" : 8192
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-modal.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-modal.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-modal.min.js",
+      "fileType" : 64
     },
     "\/lib\/img\/checker-bg.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2177,6 +2170,15 @@
       "outputAbbreviatedPath" : "\/lib\/img\/checker-bg.png",
       "initialSize" : 928,
       "fileType" : 8192
+    },
+    "\/taxonomy-media-type.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/taxonomy-media-type.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/examples\/signin.html" : {
       "ignoreWasSetByUser" : 0,
@@ -2288,17 +2290,6 @@
       "initialSize" : 4202,
       "fileType" : 8192
     },
-    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-popover.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-popover.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-popover.min.js",
-      "fileType" : 64
-    },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/scaffolding.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2312,6 +2303,28 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-popover.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-popover.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-popover.min.js",
+      "fileType" : 64
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-affix.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-affix.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-affix.min.js",
+      "fileType" : 64
+    },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/media.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -2324,17 +2337,6 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
-    },
-    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-affix.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-affix.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-affix.min.js",
-      "fileType" : 64
     },
     "\/events\/ecp-single-template.php" : {
       "ignoreWasSetByUser" : 0,
@@ -2600,14 +2602,16 @@
       "initialSize" : 1013,
       "fileType" : 8192
     },
-    "\/archive.php" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-tooltip.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/archive.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-tooltip.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-tooltip.min.js",
+      "fileType" : 64
     },
     "\/lib\/js\/vendor\/jquery-1.8.2.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -2620,6 +2624,15 @@
       "outputAbbreviatedPath" : "\/lib\/js\/vendor\/jquery-1.8.2.min.min.js",
       "fileType" : 64
     },
+    "\/archive.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/archive.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tests\/forms-responsive.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2628,17 +2641,6 @@
       "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tests\/forms-responsive.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-tooltip.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-tooltip.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/bootstrap-tooltip.min.js",
-      "fileType" : 64
     },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/examples\/fluid.html" : {
       "ignoreWasSetByUser" : 0,
@@ -2667,16 +2669,18 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-carousel.js" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/hero-unit.less" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-carousel.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-carousel.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/hero-unit.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/hero-unit.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/breadcrumbs.less" : {
       "ignoreWasSetByUser" : 0,
@@ -2700,18 +2704,16 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/hero-unit.less" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-carousel.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/hero-unit.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/hero-unit.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-carousel.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/js\/tests\/unit\/bootstrap-carousel.min.js",
+      "fileType" : 64
     },
     "\/lib\/ico\/apple-touch-icon-72-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2762,12 +2764,34 @@
       "outputStyle" : 0,
       "fileType" : 32
     },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/responsive-768px-979px.less" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/responsive-768px-979px.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/responsive-768px-979px.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
+    },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/customize.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/customize.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tests\/navbar-fixed-top.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tests\/navbar-fixed-top.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -2781,28 +2805,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/bootstrap-modal.min.js",
       "fileType" : 64
-    },
-    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tests\/navbar-fixed-top.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tests\/navbar-fixed-top.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/responsive-768px-979px.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/responsive-768px-979px.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/responsive-768px-979px.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
     },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/close.less" : {
       "ignoreWasSetByUser" : 0,
@@ -2894,14 +2896,18 @@
       "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/application.min.js",
       "fileType" : 64
     },
-    "\/template-about-press.php" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/reset.less" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/template-about-press.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/reset.less",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/reset.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/img\/responsive-illustrations.png" : {
       "ignoreWasSetByUser" : 0,
@@ -2962,19 +2968,6 @@
       "fileType" : 1,
       "debugStyle" : 0
     },
-    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/mixins.less" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/mixins.less",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/mixins.css",
-      "strictImports" : 0,
-      "fileType" : 1,
-      "debugStyle" : 0
-    },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/google-code-prettify\/prettify.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -2985,15 +2978,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/google-code-prettify\/prettify.min.js",
       "fileType" : 64
-    },
-    "\/events\/ecp-page-template.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/events\/ecp-page-template.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
     },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/tables.less" : {
       "ignoreWasSetByUser" : 0,
@@ -3007,6 +2991,24 @@
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
+    },
+    "\/events\/ecp-page-template.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/events\/ecp-page-template.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/template-about-press.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/template-about-press.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/ico\/favicon.png" : {
       "ignoreWasSetByUser" : 0,
@@ -3041,15 +3043,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/reset.less" : {
+    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/mixins.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/reset.less",
+      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/mixins.less",
       "outputStyle" : 0,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/reset.css",
+      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/css\/mixins.css",
       "strictImports" : 0,
       "fileType" : 1,
       "debugStyle" : 0
@@ -3143,16 +3145,14 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/jquery.js" : {
+    "\/template-full-width.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/jquery.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/docs\/assets\/js\/jquery.min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/template-full-width.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/lib\/js\/plugins\/awesome-cropper-master\/components\/bootstrap\/less\/wells.less" : {
       "ignoreWasSetByUser" : 0,
